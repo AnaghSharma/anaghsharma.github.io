@@ -34,8 +34,8 @@ gems:             ["jekyll-sitemap", "jekyll-paginate"]
 incremental:      true
 
 # Serving
-# url:            ""
-# baseurl:        "" # does not include hostname
+url:            "https://anaghsharma.github.io"
+baseurl:        "/" # does not include hostname
 
 # Outputting
 permalink:        "/blog/:year/:title/"
