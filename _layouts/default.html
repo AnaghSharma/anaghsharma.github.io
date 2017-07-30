@@ -35,53 +35,7 @@
   
   </head>        
   <body>
-
-    <div class="off-canvas-wrapper">
-      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-
-        <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas data-position="right">
-         <ul class="vertical menu">
-            {% include nav.html %}
-          </ul>
-        </div>
-
-        <div class="off-canvas-content" data-off-canvas-content>
-
-          <div class="title-bar">
-            <div class="title-bar-left">
-              <span class="title-bar-title mas"><a href="{{ site.url }}">{{ site.brand }}</a></span>
-            </div>
-            <div class="title-bar-right mts">
-              <ul class="menu quiet show-for-medium">
-                {% include nav.html %}
-              </ul>
-              <button class="menu-icon quiet hide-for-medium" type="button" data-toggle="offCanvasRight"><i class="fa fa-bars" aria-hidden="true"></i> MENU</button>
-            </div>
-          </div>
-          <div class="content">
-            <div class="row column">
-
-              {{ content }}
-              
-            </div>
-            <footer class="site-footer row column mtl" role="contentinfo">
-              <hr/>
-              <ul class="menu quiet copyright align-right">
-                <li><a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i>@{{ site.twitter }}</a></li>
-                <li><a href="https://github.com/{{ site.github }}/"><i class="fa fa-github"></i>@{{ site.github }}</a></li>
-              </ul>
-              <ul class="menu quiet">
-                {% include nav.html %}
-              </ul>
-            </footer>
-          </div><!-- end .content -->
-
-        </div><!-- end .off-canvas-content -->
-      </div><!-- end .off-canvas-wrapper-inner -->
-    </div><!-- end .off-canvas-wrapper -->
-
-
-
+    
     <!-- Loading JavaScripts
     ================================================== -->
 
