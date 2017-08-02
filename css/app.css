@@ -4108,8 +4108,15 @@ h1, h2, h3, h4, h5, h6 {
 .oval {
   height: 36px;
   width: 36px;
-  background: #333333;
-  border: 10px solid #FFFFFF; }
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border: 10px solid #FFFFFF;
+  background: #333333; }
+
+.horizontal-list li {
+  display: inline-block;
+  list-style-type: none; }
 
 .divider hr {
   max-width: 100%;
