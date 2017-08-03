@@ -4116,7 +4116,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .horizontal-list li {
   display: inline-block;
-  list-style-type: none; }
+  list-style-type: none;
+  margin-left: 0.5%; }
 
 .divider hr {
   max-width: 100%;
