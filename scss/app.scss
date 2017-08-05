@@ -1,16 +1,9 @@
 @charset 'utf-8';
 
-/* 
-	app.css 
-	part of http://daigofuji.github.io/jekyll-foundation-56-starter/ by Daigo Fujiwara (@DaigoFuji)
-	http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml#CSS_Style_Rules
-	http://csslint.net/ (Will hurt your feelings)
-	http://cssguidelin.es/
-*/
-
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:400,500,700);
 
 @include foundation-global-styles;
 @include foundation-grid;

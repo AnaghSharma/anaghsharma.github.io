@@ -1,17 +1,11 @@
 @charset "UTF-8";
-/* 
-	app.css 
-	part of http://daigofuji.github.io/jekyll-foundation-56-starter/ by Daigo Fujiwara (@DaigoFuji)
-	http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml#CSS_Style_Rules
-	http://csslint.net/ (Will hurt your feelings)
-	http://cssguidelin.es/
-*/
 /**
  * Foundation for Sites by ZURB
  * Version 6.2.4
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:400,500,700);
 .slide-in-down.mui-enter, .slide-in-left.mui-enter, .slide-in-up.mui-enter, .slide-in-right.mui-enter, .slide-out-down.mui-leave, .slide-out-right.mui-leave, .slide-out-up.mui-leave, .slide-out-left.mui-leave, .fade-in.mui-enter, .fade-out.mui-leave, .hinge-in-from-top.mui-enter, .hinge-in-from-right.mui-enter, .hinge-in-from-bottom.mui-enter, .hinge-in-from-left.mui-enter, .hinge-in-from-middle-x.mui-enter, .hinge-in-from-middle-y.mui-enter, .hinge-out-from-top.mui-leave, .hinge-out-from-right.mui-leave, .hinge-out-from-bottom.mui-leave, .hinge-out-from-left.mui-leave, .hinge-out-from-middle-x.mui-leave, .hinge-out-from-middle-y.mui-leave, .scale-in-up.mui-enter, .scale-in-down.mui-enter, .scale-out-up.mui-leave, .scale-out-down.mui-leave, .spin-in.mui-enter, .spin-out.mui-leave, .spin-in-ccw.mui-enter, .spin-out-ccw.mui-leave {
   transition-duration: 500ms;
   transition-timing-function: linear; }
@@ -387,7 +381,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -1235,7 +1229,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
