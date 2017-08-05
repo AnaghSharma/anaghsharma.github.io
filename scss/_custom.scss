@@ -46,13 +46,13 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border: 10px solid $black;
-  fill: $white;
+  background: #ffffff;
 }
 
 .horizontal-list li {
   display: inline-block;
   list-style-type: none;
-  margin-left: 0.5%;
+  margin-left: 0.2%;
 }
 
 .divider hr{
@@ -60,4 +60,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 160px;
   opacity: 0.3;
   background: $black;
+}
+
+.overlay-up{
+  position: relative;
+  margin-top: -1%;
 }
