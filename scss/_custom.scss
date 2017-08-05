@@ -55,6 +55,22 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 0.2%;
 }
 
+.navbar-list {
+  margin-right: 2%;
+  li {
+  margin-right: 1%;
+  float: right;
+  background: $white;
+  padding: 5px 24px;
+  font-weight: 500;
+    :hover {
+      text-decoration: none;
+      border-bottom: 3px solid $black;
+      padding-bottom: 6px;
+    }
+  }
+}
+
 .divider hr{
   max-width: 100%;
   margin-top: 160px;
@@ -64,5 +80,5 @@ h1, h2, h3, h4, h5, h6 {
 
 .overlay-up{
   position: relative;
-  margin-top: -1%;
+  margin-top: -18px;
 }
