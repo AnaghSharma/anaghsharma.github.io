@@ -4,19 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - {{ site.name }}</title>
-    <meta name="description" content="{{ page.title }} - {{ site.name }}" />
+    <title>{{ site.name }} / {{ page.title }}</title>
+    <meta name="description" content="{{ site.name }} / {{ page.title }}" />
     <meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}" />
-    <!-- Google fonts https://www.google.com/fonts
-    ================================================== -->
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700,800|Raleway:400,200,700" rel="stylesheet" type="text/css">
-    <!-- Fount Awesome -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
-
     <link rel="stylesheet" href="css/app.css">
-
-    <!-- favicon
-    ================================================== -->
     <link rel="shortcut icon" href="favicon.ico">
 
     <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
@@ -32,13 +23,30 @@
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ page.description }}">
     <meta name="twitter:image" content="{{ page.imageurl }}">
-  
-  </head>        
+  </head>
+
   <body>
+    <div class="row expanded header divider">
+        <hr/>
+      </div>
+      <div class="row overlay-up">
+        <div class="large-8 small-8 columns">
+          <ul class="horizontal-list">
+            <li class="oval"></li>
+            <li class="oval"></li>
+            <li class="oval"></li>
+            <li class="oval"></li>
+          </ul>
+        </div>
+        <div class="large-4 small-4 columns">
+          {% include nav.html %}
+        </div>
+      </div>
     {{ content }}
+
+
     <!-- Loading JavaScripts
     ================================================== -->
-
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="bower_components/jquery/dist/jquery.js"><\/script>')</script>
     <script src="bower_components/what-input/what-input.js"></script>
