@@ -4109,10 +4109,13 @@ h1, h2, h3, h4, h5, h6 {
   border: 10px solid #212121;
   background: #ffffff; }
 
+ul {
+  margin-left: 0; }
+
 .horizontal-list li {
   display: inline-block;
   list-style-type: none;
-  margin-left: 0.2%; }
+  margin-right: 0%; }
 
 .navbar-list {
   margin-right: 2%; }
@@ -4136,3 +4139,32 @@ h1, h2, h3, h4, h5, h6 {
 .overlay-up {
   position: relative;
   margin-top: -18px; }
+
+.hero-row {
+  margin-top: 8em; }
+
+.horizontal-bar {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2.5rem;
+  background: rgba(0, 0, 0, 0.38);
+  width: 80px;
+  height: 5px; }
+
+.hero-title {
+  font-size: 4em;
+  display: inline-block;
+  margin-left: -1.4rem; }
+
+@media only screen and (max-width: 460px) {
+  .horizontal-bar {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1.5rem;
+    background: rgba(0, 0, 0, 0.38);
+    width: 40px;
+    height: 5px; }
+  .hero-title {
+    font-size: 2.3em;
+    display: inline-block;
+    margin-left: -1rem; } }

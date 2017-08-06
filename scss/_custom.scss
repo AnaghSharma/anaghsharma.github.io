@@ -6,8 +6,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-//helper for font weight
-//Open+Sans:400,700,800|Raleway:400,200,700
 .font-light {
   font-weight: 200;
 }
@@ -49,10 +47,14 @@ h1, h2, h3, h4, h5, h6 {
   background: #ffffff;
 }
 
+ul {
+  margin-left: 0;
+}
+
 .horizontal-list li {
   display: inline-block;
   list-style-type: none;
-  margin-left: 0.2%;
+  margin-right: 0%;
 }
 
 .navbar-list {
@@ -71,14 +73,51 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.divider hr{
+.divider hr {
   max-width: 100%;
   margin-top: 160px;
   opacity: 0.3;
   background: $black;
 }
 
-.overlay-up{
+.overlay-up {
   position: relative;
   margin-top: -18px;
+}
+
+.hero-row {
+  margin-top: 8em;
+}
+
+.horizontal-bar {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2.5rem;
+  background: rgba(0,0,0,0.38);
+  width: 80px;
+  height: 5px;
+}
+
+.hero-title {
+  font-size: 4em;
+  display: inline-block;
+  margin-left: -1.4rem;
+}
+
+@media only screen and (max-width: 460px) {
+  
+  .horizontal-bar {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1.5rem;
+    background: rgba(0,0,0,0.38);
+    width: 40px;
+    height: 5px;
+  }
+
+  .hero-title {
+  font-size: 2.3em;
+  display: inline-block;
+  margin-left: -1rem;
+  }
 }
