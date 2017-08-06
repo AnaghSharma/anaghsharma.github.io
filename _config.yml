@@ -11,5 +11,6 @@ behance : AnaghSharma
 author : Anagh Sharma
 year : 2017
 markdown : kramdown
+include : ['_pages']
 exclude :
   - node_modules
