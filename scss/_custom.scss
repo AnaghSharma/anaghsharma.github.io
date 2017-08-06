@@ -117,19 +117,11 @@ ul {
 }
 
 .action-list {
-  padding-top: 2rem;
+  padding-top: 2.2rem;
   li a {
   color: $white;
   padding: 1.2rem;
   }
-}
-
-.action-list li {
-  :hover {
-      text-decoration: none;
-      border-bottom: 3px solid $white;
-      padding-bottom: 6px;
-    }
 }
 
 @media only screen and (max-width: 460px) {
