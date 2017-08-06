@@ -4141,7 +4141,7 @@ ul {
   margin-top: -18px; }
 
 .hero-row {
-  margin-top: 8em; }
+  margin-top: 8rem; }
 
 .horizontal-bar {
   display: inline-block;
@@ -4155,6 +4155,10 @@ ul {
   font-size: 4em;
   display: inline-block;
   margin-left: -1.4rem; }
+
+.hero-text {
+  margin-top: 8rem;
+  font-size: 1em; }
 
 @media only screen and (max-width: 460px) {
   .horizontal-bar {
