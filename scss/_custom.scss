@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 .font-light {
   font-weight: 200;
 }
-.font-weight-normal {
+.font-normal {
   font-weight: 400;
 }
 .font-medium {
@@ -171,4 +171,29 @@ ul {
     color: $white;
     font-size: 0.9em;
   }
+}
+
+.section-heading-bar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -1.2rem;
+  background: #e8e8e8;
+  height: 12px;
+}
+
+.section-portfolio-background {
+  background: rgba(238, 238, 238, 1);
+  height: 100rem;
+  margin-top: 20rem;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.portfolio-project-card {
+  height: 24rem;
+  position: relative;
+  top: -12rem;
+  background: #FFFFFF;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.24);
 }
