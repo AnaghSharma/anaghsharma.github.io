@@ -4194,10 +4194,12 @@ ul {
     float: right;
     color: #fefefe;
     opacity: 0.5;
-    margin-top: 1.2rem; }
+    margin-top: 1.3rem;
+    font-size: 0.9em; }
   .footer ul {
     margin-top: 1rem;
-    margin-left: -1.2rem; }
+    margin-left: -1.2rem;
+    margin-bottom: 0; }
   .footer li {
     margin: 5px 24px; }
     .footer li :hover {
@@ -4205,4 +4207,5 @@ ul {
       border-bottom: 3px solid #fefefe;
       padding-bottom: 6px; }
   .footer a {
-    color: #fefefe; }
+    color: #fefefe;
+    font-size: 0.9em; }
