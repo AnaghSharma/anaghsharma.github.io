@@ -4184,3 +4184,25 @@ ul {
     font-size: 2.3em;
     display: inline-block;
     margin-left: -1rem; } }
+
+.footer {
+  margin-top: 6rem;
+  height: 4rem;
+  width: 100%;
+  background: #212121; }
+  .footer p {
+    float: right;
+    color: #fefefe;
+    opacity: 0.5;
+    margin-top: 1.2rem; }
+  .footer ul {
+    margin-top: 1rem;
+    margin-left: -1.2rem; }
+  .footer li {
+    margin: 5px 24px; }
+    .footer li :hover {
+      text-decoration: none;
+      border-bottom: 3px solid #fefefe;
+      padding-bottom: 6px; }
+  .footer a {
+    color: #fefefe; }

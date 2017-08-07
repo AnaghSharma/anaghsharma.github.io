@@ -141,3 +141,31 @@ ul {
   margin-left: -1rem;
   }
 }
+
+.footer {
+  margin-top: 6rem;
+  height: 4rem;
+  width: 100%;
+  background: $black;
+  p {
+    float: right;
+    color: $white;
+    opacity: 0.5;
+    margin-top: 1.2rem;
+  }
+  ul {
+    margin-top: 1rem;
+    margin-left: -1.2rem;
+  }
+  li {
+    margin: 5px 24px;
+      :hover {
+        text-decoration: none;
+        border-bottom: 3px solid $white;
+        padding-bottom: 6px;
+      }
+    }
+  a {
+    color: $white;
+  }
+}
