@@ -126,7 +126,6 @@ ul {
 
 .footer {
   margin-top: 6rem;
-  height: 4rem;
   width: 100%;
   background: $black;
   p {
@@ -139,7 +138,7 @@ ul {
   ul {
     margin-top: 1rem;
     margin-left: -1.2rem;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
   }
   li {
     margin: 5px 24px;
@@ -178,7 +177,14 @@ ul {
   position: relative;
   top: -12rem;
   background: #FFFFFF;
+  border-radius: 2px;
   box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.24);
+}
+
+.portfolio-project-card:hover {
+  z-index: 2;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.12), 0 8px 8px 0 rgba(0,0,0,0.24);
+  transition: box-shadow 0.2s ease;
 }
 
 .medium-heading {
