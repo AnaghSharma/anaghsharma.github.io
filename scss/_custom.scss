@@ -165,7 +165,6 @@ ul {
 
 .section-portfolio-background {
   background: rgba(238, 238, 238, 1);
-  height: 96rem;
   margin-top: 20rem;
   margin-left: 1%;
   margin-right: 1%;
@@ -173,7 +172,7 @@ ul {
 
 .portfolio-project-card {
   height: 24rem;
-  margin-bottom: 1.8rem;
+  margin-bottom: 8px;
   position: relative;
   top: -12rem;
   background: #FFFFFF;
@@ -195,7 +194,7 @@ ul {
 .sidebar {
   background: #333333;
   height: 20rem;
-  margin-right: 1rem;
+  margin-right: .25rem;
 }
 
 .custom-action-button {

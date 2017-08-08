@@ -450,8 +450,12 @@ button {
     margin-right: -0.625rem; }
     @media screen and (min-width: 40em) {
       .row .row {
-        margin-left: -0.9375rem;
-        margin-right: -0.9375rem; } }
+        margin-left: -0.25rem;
+        margin-right: -0.25rem; } }
+    @media screen and (min-width: 64em) {
+      .row .row {
+        margin-left: -0.25rem;
+        margin-right: -0.25rem; } }
     .row .row.collapse {
       margin-left: 0;
       margin-right: 0; }
@@ -468,8 +472,12 @@ button {
   padding-right: 0.625rem; }
   @media screen and (min-width: 40em) {
     .column, .columns {
-      padding-left: 0.9375rem;
-      padding-right: 0.9375rem; } }
+      padding-left: 0.25rem;
+      padding-right: 0.25rem; } }
+  @media screen and (min-width: 64em) {
+    .column, .columns {
+      padding-left: 0.25rem;
+      padding-right: 0.25rem; } }
   .column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
     float: right; }
   .column.end:last-child:last-child, .end.columns:last-child:last-child {
@@ -952,8 +960,8 @@ button {
     margin-left: 0;
     margin-right: 0; }
   .medium-uncollapse > .column, .medium-uncollapse > .columns {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem; }
+    padding-left: 0.25rem;
+    padding-right: 0.25rem; }
   .medium-centered {
     margin-left: auto;
     margin-right: auto; }
@@ -1165,8 +1173,8 @@ button {
     margin-left: 0;
     margin-right: 0; }
   .large-uncollapse > .column, .large-uncollapse > .columns {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem; }
+    padding-left: 0.25rem;
+    padding-right: 0.25rem; }
   .large-centered {
     margin-left: auto;
     margin-right: auto; }
@@ -4206,14 +4214,13 @@ ul {
 
 .section-portfolio-background {
   background: #eeeeee;
-  height: 96rem;
   margin-top: 20rem;
   margin-left: 1%;
   margin-right: 1%; }
 
 .portfolio-project-card {
   height: 24rem;
-  margin-bottom: 1.8rem;
+  margin-bottom: 8px;
   position: relative;
   top: -12rem;
   background: #FFFFFF;
@@ -4232,7 +4239,7 @@ ul {
 .sidebar {
   background: #333333;
   height: 20rem;
-  margin-right: 1rem; }
+  margin-right: .25rem; }
 
 .custom-action-button {
   background: #212121;
