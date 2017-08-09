@@ -27,6 +27,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 80%;
 }
 
+.center-align {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .title-bar {
   box-shadow: 0 0 10px rgba(138, 138, 138, 0.3);
 
@@ -216,6 +222,7 @@ ul {
   padding: 18px 24px;
   color: $white;
   font-size: 0.8em;
+  text-align: center;
 }
 
 .custom-action-button:hover {

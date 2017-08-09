@@ -4101,6 +4101,11 @@ h1, h2, h3, h4, h5, h6 {
 .quiet {
   font-size: 80%; }
 
+.center-align {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 .title-bar {
   box-shadow: 0 0 10px rgba(138, 138, 138, 0.3); }
   .title-bar .title-bar-title {
@@ -4257,7 +4262,8 @@ ul {
   background: #212121;
   padding: 18px 24px;
   color: #fefefe;
-  font-size: 0.8em; }
+  font-size: 0.8em;
+  text-align: center; }
 
 .custom-action-button:hover {
   color: #fefefe;
