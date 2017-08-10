@@ -85,7 +85,6 @@ ul {
 
 .divider hr {
   max-width: 100%;
-  margin-top: 160px;
   opacity: 0.3;
   background: $black;
 }
@@ -228,6 +227,12 @@ ul {
 .custom-action-button:hover {
   color: $white;
   text-decoration: none;
+}
+
+.blog-hero-image {
+  width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 .section-room-background {
