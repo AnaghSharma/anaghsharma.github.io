@@ -196,8 +196,34 @@ ul {
   margin-right: 1%;
 }
 
+.left-collapse {
+  padding-left: 0;
+}
+
+.right-collapse {
+  padding-right: 0;
+}
+
+.square {
+  width: 100%;
+  padding-bottom: 100%;
+}
+
+.horizontal-rect-8 {
+  width: 100%;
+  padding-bottom: 50%;
+}
+
+.horizontal-rect-12 {
+  width: 100%;
+  padding-bottom: 35%;
+}
+
+.vertical-rect {
+  padding-bottom: calc(200% + 0.75rem);
+}
+
 .portfolio-project-card {
-  height: 24rem;
   margin-bottom: 8px;
   position: relative;
   top: -12rem;
