@@ -4281,8 +4281,32 @@ ul {
 
 .sidebar {
   background: #333333;
-  height: 20rem;
+  background-image: url("/assets/images/ovals-background.png");
+  padding-top: 32px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-right: .25rem; }
+
+.featured-list {
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 12px; }
+  .featured-list li {
+    list-style: none; }
+  .featured-list h6 {
+    opacity: 0.7;
+    margin-bottom: 0; }
+  .featured-list a {
+    display: inline-block;
+    color: #fefefe;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-size: 0.9em;
+    line-height: 1.4; }
+  .featured-list .disabled {
+    pointer-events: none;
+    cursor: default; }
 
 .action-button {
   box-sizing: border-box;
