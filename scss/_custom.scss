@@ -129,10 +129,16 @@ ul {
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
     padding-left: 1.2rem;
-    padding-right: 1.2rem;
+    padding-right: 1.4rem;
+  }
+  img {
+    margin-right: 6px;
+    margin-top: -3px;
+    height: 20px;
   }
   a {
   color: $white;
+  font-size: 1.1em;
   }
   a:hover {
     text-decoration: none;

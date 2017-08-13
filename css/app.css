@@ -4184,10 +4184,16 @@ ul {
   padding-top: 2.4rem;
   padding-bottom: 2.4rem;
   padding-left: 1.2rem;
-  padding-right: 1.2rem; }
+  padding-right: 1.4rem; }
+
+.action-list img {
+  margin-right: 6px;
+  margin-top: -3px;
+  height: 20px; }
 
 .action-list a {
-  color: #fefefe; }
+  color: #fefefe;
+  font-size: 1.1em; }
 
 .action-list a:hover {
   text-decoration: none;
