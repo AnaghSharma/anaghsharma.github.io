@@ -4285,7 +4285,7 @@ ul {
   font-size: 0.8em;
   color: rgba(0, 0, 0, 0.54); }
 
-.sidebar {
+.sidebar-featured {
   background: #333333;
   background-image: url("/assets/images/ovals-background.png");
   background-size: cover;
@@ -4293,8 +4293,7 @@ ul {
   padding-top: 32px;
   padding-bottom: 0px;
   padding-left: 20px;
-  padding-right: 20px;
-  margin-right: .25rem; }
+  padding-right: 20px; }
 
 .featured-list {
   padding: 0;
@@ -4362,10 +4361,9 @@ ul {
 
 #blog-home-container {
   position: relative;
-  height: 360px;
+  height: 24rem;
   width: 100%;
   margin-top: 20px;
-  margin-right: 20px;
   background: #ededed; }
 
 .blog-home-image {
@@ -4381,6 +4379,23 @@ ul {
   left: 0;
   background: #212121;
   opacity: 0.5; }
+
+.sidebar-articles {
+  padding-top: 0px;
+  padding-left: 0px;
+  margin-bottom: 0;
+  margin-top: 12px; }
+  .sidebar-articles li {
+    list-style: none; }
+  .sidebar-articles h6 {
+    opacity: 0.7;
+    margin-bottom: 24px; }
+  .sidebar-articles a {
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-size: 0.9em;
+    line-height: 1.4; }
 
 .section-room-background {
   background: #333333;
