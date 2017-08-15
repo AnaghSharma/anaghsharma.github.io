@@ -49,7 +49,7 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #25cbaf,
+  primary: #e62027,
   secondary: #777,
   success: #3adb76,
   warning: #ffae00,
@@ -57,11 +57,11 @@ $foundation-palette: (
 );
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
-$black: #212121;
-$white: #fefefe;
-$body-background: $white;
-$body-font-color: $black;
+$dark-gray: #212121;
+$black: #000000;
+$white: #ffffff;
+$body-background: $dark-gray;
+$body-font-color: $white;
 $body-font-family: "Roboto",Arial,sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
@@ -81,11 +81,11 @@ $print-transparent-backgrounds: true;
 $breakpoints: (
   small: 0,
   medium: 640px,
-  large: 1024px,
+  large: 1080px,
   xlarge: 1200px,
   xxlarge: 1440px,
 );
-$breakpoint-classes: (small medium large);
+$breakpoint-classes: (small medium large xlarge);
 
 // 3. The Grid
 // -----------
@@ -142,8 +142,8 @@ $code-font-weight: $global-weight-normal;
 $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
-$anchor-color: $black;
-$anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
+$anchor-color: $white;
+$anchor-color-hover: $primary-color;
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: underline;
 $hr-width: $global-width;

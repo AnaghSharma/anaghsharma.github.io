@@ -26,26 +26,11 @@
   </head>
 
   <body>
-    <div class="row expanded header divider">
-        <hr style="margin-top:160px;"</hr>
-      </div>
-      <div class="row overlay-up">
-        <div class="large-8 small-8 columns">
-          <ul class="horizontal-list">
-            <li class="oval"></li>
-            <li class="oval"></li>
-            <li class="oval"></li>
-            <li class="oval"></li>
-          </ul>
-        </div>
-        <div class="large-4 small-4 columns">
-          {% include nav.html %}
-        </div>
-      </div>
+    {% include header.html %}
     {{ content }}
-    <div class="row expanded footer">
+     <div class="row expanded footer">
       {% include footer.html %}
-    </div>
+    </div> 
 
     <!-- Loading JavaScripts
     ================================================== -->
