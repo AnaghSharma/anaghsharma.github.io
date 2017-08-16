@@ -128,6 +128,19 @@ ul {
   padding-bottom: 3rem;
 }
 
+.footer-menu {
+  li {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+}
+
+.menu-heading {
+  @include breakpoint (small only){
+    margin-top: 3rem;
+  }
+}
+
 // .horizontal-list li {
 //   display: inline-block;
 //   list-style-type: none;
