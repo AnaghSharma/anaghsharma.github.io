@@ -4413,7 +4413,7 @@ h1, h2, h3, h4, h5, h6 {
 .font-dark-theme {
   color: #ffffff; }
 
-.font-primary-color {
+.text-primary-color {
   color: #e62027; }
 
 .quiet {
@@ -4471,7 +4471,6 @@ ul {
 .hero-text {
   padding-top: 8rem; }
   .hero-text p {
-    font-size: 1em;
     padding-bottom: 2.5rem; }
   .hero-text a {
     font-size: 0.9rem; }
@@ -4479,14 +4478,6 @@ ul {
     text-decoration: none;
     border-bottom: 3px solid #e62027;
     padding-bottom: 6px; }
-
-.link-button {
-  font-size: 0.9rem; }
-
-.link-button:hover {
-  text-decoration: none;
-  border-bottom: 3px solid #e62027;
-  padding-bottom: 6px; }
 
 .footer {
   background: #050505;
@@ -4501,3 +4492,11 @@ ul {
 @media screen and (max-width: 39.9375em) {
   .menu-heading {
     margin-top: 3rem; } }
+
+.button-link {
+  font-size: 0.9em; }
+
+.button-link:hover {
+  text-decoration: none;
+  border-bottom: 3px solid #e62027;
+  padding-bottom: 6px; }
