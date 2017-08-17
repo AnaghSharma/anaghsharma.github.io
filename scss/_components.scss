@@ -1,5 +1,15 @@
-.button-link:hover {
+a.primary:hover {
   text-decoration: none;
   border-bottom: 3px solid $primary-color;
   padding-bottom: 6px;
 }
+
+// .button-link {
+//   font-size: 0.9rem;
+// }
+
+// .button-link:hover {
+//   text-decoration: none;
+//   border-bottom: 3px solid $primary-color;
+//   padding-bottom: 6px;
+// }

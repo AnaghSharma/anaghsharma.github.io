@@ -4496,7 +4496,7 @@ ul {
 .button-link {
   font-size: 0.9em; }
 
-.button-link:hover {
+a.primary:hover {
   text-decoration: none;
   border-bottom: 3px solid #e62027;
   padding-bottom: 6px; }
