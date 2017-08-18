@@ -4410,7 +4410,10 @@ h1, h2, h3, h4, h5, h6 {
 .font-bold {
   font-weight: 800; }
 
-.font-dark-theme {
+.font-dark {
+  color: #000000; }
+
+.font-light {
   color: #ffffff; }
 
 .text-primary-color {
@@ -4495,6 +4498,104 @@ ul {
 
 .button-link {
   font-size: 0.9em; }
+
+.section-portfolio-background {
+  background: #eeeeee;
+  margin-top: 20rem;
+  margin-left: 1%;
+  margin-right: 1%; }
+
+.left-collapse {
+  padding-left: 0; }
+
+.right-collapse {
+  padding-right: 0; }
+
+.square {
+  width: 100%;
+  padding-bottom: 100%; }
+
+.horizontal-rect-8 {
+  width: 100%;
+  padding-bottom: 50%; }
+
+.horizontal-rect-12 {
+  width: 100%;
+  padding-bottom: 35%; }
+
+.vertical-rect {
+  padding-bottom: calc(200% + 0.75rem); }
+
+.portfolio-project-card {
+  margin-bottom: 8px;
+  position: relative;
+  top: -12rem;
+  background: #FFFFFF;
+  border-radius: 2px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.24); }
+
+.portfolio-project-card:hover {
+  cursor: pointer;
+  z-index: 2;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12), 0 8px 8px 0 rgba(0, 0, 0, 0.24);
+  transition: box-shadow 0.2s ease; }
+
+.medium-heading {
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.54); }
+
+.sidebar {
+  background: #333333;
+  background-image: url("/assets/images/ovals-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 32px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: .25rem; }
+
+.featured-list {
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 12px; }
+  .featured-list li {
+    list-style: none; }
+  .featured-list h6 {
+    opacity: 0.7;
+    margin-bottom: 0; }
+  .featured-list a {
+    display: inline-block;
+    color: #ffffff;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-size: 0.9em;
+    line-height: 1.4; }
+  .featured-list .disabled {
+    pointer-events: none;
+    cursor: default; }
+
+.action-button {
+  box-sizing: border-box;
+  text-decoration: none;
+  background: #000000;
+  padding: 18px 24px;
+  color: #ffffff;
+  font-size: 0.8em;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.action-button:hover {
+  color: #ffffff;
+  text-decoration: none;
+  z-index: 2;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.24); }
+
+.action-button:active {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12), 0 8px 8px 0 rgba(0, 0, 0, 0.24); }
 
 a.primary:hover {
   text-decoration: none;
