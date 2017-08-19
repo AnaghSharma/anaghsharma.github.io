@@ -21,6 +21,10 @@
     }
 }
 
+.footer {
+  background: #050505;
+}
+
 .hero-row {
   h1 {
     font-size: 4em;
@@ -50,10 +54,6 @@
   }
 }
 
-.footer {
-  background: #050505;
-}
-
 .menu-heading {
   @include breakpoint (small only){
     margin-top: 3rem;
@@ -66,17 +66,8 @@
 
 .section-portfolio-background {
   background: rgba(238, 238, 238, 1);
-  margin-top: 20rem;
   margin-left: 1%;
   margin-right: 1%;
-}
-
-.left-collapse {
-  padding-left: 0;
-}
-
-.right-collapse {
-  padding-right: 0;
 }
 
 .square {
@@ -99,7 +90,6 @@
 }
 
 .portfolio-project-card {
-  margin-bottom: 8px;
   position: relative;
   top: -12rem;
   background: #FFFFFF;
