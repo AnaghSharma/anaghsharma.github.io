@@ -5460,6 +5460,12 @@ table.hover tbody tr:nth-of-type(even):hover {
     margin-right: var(--spacing-extra-extra-extra-large); } }
 
 /* custom */
+.row {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem; }
+
 ul {
   margin-left: 0;
   margin-right: 0; }
