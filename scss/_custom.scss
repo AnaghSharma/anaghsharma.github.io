@@ -8,20 +8,16 @@
   }
 }
 
-ul {
-  margin-left: 0;
-  margin-right: 0;
-}
-
 .nav-bar {
-  margin-top: 96px;
-  #logo {
+  .logo {
     height: 24px;
     width: 24px;
-    margin-top: 8px;
+  }
+  li {
+    display: inline-block;
   }
   @include breakpoint (small only){
-      margin-top: 48px;
+      margin-top: 3rem;
     }
 }
 

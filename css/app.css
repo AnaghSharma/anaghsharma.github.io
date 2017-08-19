@@ -5466,19 +5466,16 @@ table.hover tbody tr:nth-of-type(even):hover {
   padding-left: 0.25rem;
   padding-right: 0.25rem; }
 
-ul {
-  margin-left: 0;
-  margin-right: 0; }
+.nav-bar .logo {
+  height: 24px;
+  width: 24px; }
 
-.nav-bar {
-  margin-top: 96px; }
-  .nav-bar #logo {
-    height: 24px;
-    width: 24px;
-    margin-top: 8px; }
-  @media screen and (max-width: 39.9375em) {
-    .nav-bar {
-      margin-top: 48px; } }
+.nav-bar li {
+  display: inline-block; }
+
+@media screen and (max-width: 39.9375em) {
+  .nav-bar {
+    margin-top: 3rem; } }
 
 .hero-row {
   margin-top: 12rem; }
