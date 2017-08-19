@@ -22,7 +22,6 @@
 }
 
 .hero-row {
-  margin-top: 12rem;
   h1 {
     font-size: 4em;
     display: inline-block;
@@ -48,21 +47,6 @@
   @include breakpoint (small only){
     margin-top: 1.5rem;
     width: 60px;
-  }
-}
-
-.hero-text {
-  padding-top: 8rem;
-  p {
-    padding-bottom: 2.5rem;
-  }
-  a {
-    font-size: 0.9rem;
-  }
-  a:hover {
-    text-decoration: none;
-    border-bottom: 3px solid $primary-color;
-    padding-bottom: 6px;
   }
 }
 
