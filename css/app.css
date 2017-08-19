@@ -5514,6 +5514,23 @@ table.hover tbody tr:nth-of-type(even):hover {
   margin-left: 1%;
   margin-right: 1%; }
 
+.left-collapse {
+  padding-left: 0; }
+  @media screen and (max-width: 39.9375em) {
+    .left-collapse {
+      padding-right: 0; } }
+
+.right-collapse {
+  padding-right: 0; }
+  @media screen and (max-width: 39.9375em) {
+    .right-collapse {
+      padding-left: 0; } }
+
+@media screen and (max-width: 39.9375em) {
+  .small-collapse {
+    padding-left: 0.3125rem;
+    padding-right: 0.3125rem; } }
+
 .square {
   width: 100%;
   padding-bottom: 100%; }
@@ -5521,13 +5538,24 @@ table.hover tbody tr:nth-of-type(even):hover {
 .horizontal-rect-8 {
   width: 100%;
   padding-bottom: 50%; }
+  @media screen and (max-width: 39.9375em) {
+    .horizontal-rect-8 {
+      padding-bottom: 60%; } }
 
 .horizontal-rect-12 {
   width: 100%;
   padding-bottom: 35%; }
+  @media screen and (max-width: 39.9375em) {
+    .horizontal-rect-12 {
+      padding-bottom: 50%;
+      padding-left: 0;
+      padding-right: 0; } }
 
 .vertical-rect {
   padding-bottom: calc(200% + 0.75rem); }
+  @media screen and (max-width: 39.9375em) {
+    .vertical-rect {
+      padding-bottom: calc(150% + 0.75rem); } }
 
 .portfolio-project-card {
   position: relative;
@@ -5535,6 +5563,9 @@ table.hover tbody tr:nth-of-type(even):hover {
   background: #FFFFFF;
   border-radius: 2px;
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.24); }
+  @media screen and (max-width: 39.9375em) {
+    .portfolio-project-card {
+      top: -6rem; } }
 
 .portfolio-project-card:hover {
   cursor: pointer;
