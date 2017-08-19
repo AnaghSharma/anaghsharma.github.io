@@ -155,11 +155,7 @@
   background-image: url("/assets/images/ovals-background.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 32px;
-  padding-bottom: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-right: .25rem;
+  margin-right: 0.25rem;
 }
 
 .featured-list {
@@ -192,8 +188,7 @@
   text-decoration: none;
   background: $black;
   padding: 18px 24px;
-  color: $white;
-  font-size: 0.8em;
+  font-size: 0.9rem;
   text-align: center;
   -webkit-user-select: none;  
   -moz-user-select: none;    

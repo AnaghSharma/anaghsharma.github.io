@@ -5582,11 +5582,7 @@ table.hover tbody tr:nth-of-type(even):hover {
   background-image: url("/assets/images/ovals-background.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 32px;
-  padding-bottom: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-right: .25rem; }
+  margin-right: 0.25rem; }
 
 .featured-list {
   padding: 0;
@@ -5613,8 +5609,7 @@ table.hover tbody tr:nth-of-type(even):hover {
   text-decoration: none;
   background: #000000;
   padding: 18px 24px;
-  color: #ffffff;
-  font-size: 0.8em;
+  font-size: 0.9rem;
   text-align: center;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -5790,7 +5785,7 @@ a.primary:hover {
   font-size: 90%; }
 
 .font-secondary {
-  opacity: 0.7; }
+  opacity: 0.5; }
 
 /*
 
