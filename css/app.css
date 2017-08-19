@@ -5621,10 +5621,21 @@ table.hover tbody tr:nth-of-type(even):hover {
 .action-button:active {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12), 0 8px 8px 0 rgba(0, 0, 0, 0.24); }
 
+.section-heading-bar-dark {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -1.2rem;
+  background: rgba(255, 255, 255, 0.12);
+  height: 12px; }
+
 a.primary:hover {
   text-decoration: none;
   border-bottom: 3px solid #e62027;
   padding-bottom: 6px; }
+
+a.heading:hover {
+  text-decoration: none; }
 
 /*
 
