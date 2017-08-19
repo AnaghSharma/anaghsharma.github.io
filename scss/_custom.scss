@@ -156,19 +156,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   margin-right: 0.25rem;
+
+  @include breakpoint(small only){
+    margin-top: 4rem;
+    margin-right: 0;
+  }
 }
 
 .featured-list {
-  padding: 0;
-  margin-bottom: 0;
-  margin-top: 12px;
-  li {
-    list-style: none;
-  }
-  h6 {
-    opacity: 0.7;
-    margin-bottom: 0;
-  }
   a {
     display: inline-block;
     color: $white;
@@ -188,7 +183,7 @@
   text-decoration: none;
   background: $black;
   padding: 18px 24px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-align: center;
   -webkit-user-select: none;  
   -moz-user-select: none;    
