@@ -7,6 +7,12 @@ a.primary:hover {
 a.heading:hover {
   text-decoration: none;
 }
+
+a.no-decoration-light:hover {
+  text-decoration: none;
+  color: $white;
+}
+
 // .button-link {
 //   font-size: 0.9rem;
 // }
