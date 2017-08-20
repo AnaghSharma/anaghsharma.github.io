@@ -5614,7 +5614,8 @@ table.hover tbody tr:nth-of-type(even):hover {
   height: 10rem;
   border-radius: 2px; }
   .blog-card h5 {
-    font-family: "Playfair Display", serif; }
+    font-family: "Playfair Display", serif;
+    height: 5rem; }
 
 a.primary:hover {
   text-decoration: none;
