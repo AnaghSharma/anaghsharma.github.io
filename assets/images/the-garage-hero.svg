@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="308px" height="307px" viewBox="0 0 308 307" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 33</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-529.000000, -3921.000000)">
+            <g id="Group-33" transform="translate(529.000000, 3921.000000)">
+                <g id="Group-25">
+                    <g id="Group-24" fill="#FFFFFF" fill-opacity="0.12">
+                        <rect id="Rectangle-16" transform="translate(153.646447, 153.353553) rotate(45.000000) translate(-153.646447, -153.353553) " x="-62.3535534" y="152.853553" width="432" height="1"></rect>
+                        <rect id="Rectangle-16" transform="translate(154.353553, 153.353553) rotate(45.000000) translate(-154.353553, -153.353553) " x="153.853553" y="-62.6464466" width="1" height="432"></rect>
+                    </g>
+                    <g id="Group-10" transform="translate(92.000000, 79.000000)">
+                        <g id="Group-31">
+                            <polygon id="Shape" points="0 0 124 0 124 124 0 124"></polygon>
+                            <g id="Group-30" transform="translate(10.333333, 15.333333)">
+                                <path d="M0,4.65684892 L0,98.3333333 L103.333414,98.3333333 L6.82842602,1.82842069 L6.82842602,1.82842069 C5.26632824,0.266324136 2.73366833,0.266325124 1.17157177,1.8284229 C0.421426933,2.57856832 -9.91067288e-16,3.5959835 -1.33226763e-15,4.65684892 Z" id="Path-2" fill="#656565"></path>
+                                <path d="M0,4.65684892 L0,98.3333333 L103.333414,98.3333333 L6.82842602,1.82842069 L6.82842602,1.82842069 C5.26632824,0.266324136 2.73366833,0.266325124 1.17157177,1.8284229 C0.421426933,2.57856832 -9.91067288e-16,3.5959835 -1.33226763e-15,4.65684892 Z" id="Path-2" fill="#FFFFFF" transform="translate(51.666707, 49.495091) scale(-1, 1) translate(-51.666707, -49.495091) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
