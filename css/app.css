@@ -5643,6 +5643,9 @@ table.hover tbody tr:nth-of-type(even):hover {
       padding-left: 1rem;
       padding-right: 1rem; } }
 
+.garage-post-header {
+  height: 2rem; }
+
 a.primary:hover {
   text-decoration: none;
   border-bottom: 3px solid #e62027;
