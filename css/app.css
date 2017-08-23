@@ -5635,7 +5635,8 @@ table.hover tbody tr:nth-of-type(even):hover {
   height: 2rem; }
 
 .garage-background {
-  background: #191919; }
+  background: #191919;
+  border-radius: 2px; }
 
 a.primary:hover {
   text-decoration: none;
