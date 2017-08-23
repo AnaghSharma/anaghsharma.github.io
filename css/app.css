@@ -5631,20 +5631,11 @@ table.hover tbody tr:nth-of-type(even):hover {
     .room-text {
       height: 12.4rem; } }
 
-.garage-spacing {
-  padding-left: 8rem;
-  padding-right: 8rem; }
-  @media screen and (min-width: 40em) and (max-width: 67.4375em) {
-    .garage-spacing {
-      padding-left: 4rem;
-      padding-right: 4rem; } }
-  @media screen and (max-width: 39.9375em) {
-    .garage-spacing {
-      padding-left: 1rem;
-      padding-right: 1rem; } }
-
 .garage-post-header {
   height: 2rem; }
+
+.garage-background {
+  background: #191919; }
 
 a.primary:hover {
   text-decoration: none;

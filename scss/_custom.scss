@@ -215,21 +215,10 @@
   }
 }
 
-.garage-spacing {
-  padding-left: 8rem;
-  padding-right: 8rem;
-
-  @include breakpoint (medium only) {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
-  @include breakpoint (small only) {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-
 .garage-post-header {
   height: 2rem;
+}
+
+.garage-background {
+  background: #191919;
 }
