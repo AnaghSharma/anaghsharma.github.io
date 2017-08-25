@@ -223,3 +223,12 @@
   background: #191919;
   border-radius: 2px;
 }
+
+.display-pic {
+
+  @include breakpoint (small only){
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 4rem;
+  }
+}
