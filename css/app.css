@@ -5644,6 +5644,10 @@ table.hover tbody tr:nth-of-type(even):hover {
     padding-right: 1rem;
     margin-bottom: 4rem; } }
 
+.identity-thumbnail {
+  background: url("/assets/images/projects-thumbnails/identity.jpg") no-repeat center center;
+  background-size: cover; }
+
 a.primary:hover {
   text-decoration: none;
   border-bottom: 3px solid #e62027;

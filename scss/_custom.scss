@@ -232,3 +232,11 @@
     margin-bottom: 4rem;
   }
 }
+
+.identity-thumbnail {
+  background: url("/assets/images/projects-thumbnails/identity.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
