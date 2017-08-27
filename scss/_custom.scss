@@ -101,10 +101,6 @@
 .horizontal-rect-8 {
   width: 100%;
   padding-bottom: 50%;
-
-  @include breakpoint (small only){
-    padding-bottom: 60%;
-  }
 }
 
 .horizontal-rect-12 {
@@ -112,7 +108,7 @@
   padding-bottom: 35%;
   
   @include breakpoint (small only){
-    padding-bottom: 50%;
+    padding-bottom: 40%;
     padding-left: 0;
     padding-right: 0;
   }
@@ -120,10 +116,6 @@
 
 .vertical-rect {
   padding-bottom: calc(200% + 0.75rem);
-
-  @include breakpoint (small only){
-    padding-bottom: calc(150% + 0.75rem);
-  }
 }
 
 .portfolio-project-card {
@@ -239,6 +231,10 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  @include breakpoint(small only){
+    
+  }
 }
 
 .uber-thumbnail {
