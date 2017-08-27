@@ -5648,6 +5648,10 @@ table.hover tbody tr:nth-of-type(even):hover {
   background: url("/assets/images/projects-thumbnails/identity.jpg") no-repeat center center;
   background-size: cover; }
 
+.uber-thumbnail {
+  background: url("/assets/images/projects-thumbnails/uber.jpg") no-repeat center center;
+  background-size: cover; }
+
 a.primary:hover {
   text-decoration: none;
   border-bottom: 3px solid #e62027;
