@@ -64,7 +64,7 @@
   font-size: 0.9em;
 }
 
-.section-portfolio-background {
+.full-width-background-light {
   background: rgba(238, 238, 238, 1);
   margin-left: 1%;
   margin-right: 1%;
@@ -190,7 +190,7 @@
   }
 }
 
-.room-background {
+.full-width-background-dark {
   background: #191919;
   margin-left: 1%;
   margin-right: 1%;
@@ -231,10 +231,6 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-  @include breakpoint(small only){
-    
-  }
 }
 
 .uber-thumbnail {
@@ -243,4 +239,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.content-table-bar {
+  background: $primary-color;
+  width: 0.25rem;
 }

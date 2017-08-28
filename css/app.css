@@ -5509,7 +5509,7 @@ table.hover tbody tr:nth-of-type(even):hover {
 .button-link {
   font-size: 0.9em; }
 
-.section-portfolio-background {
+.full-width-background-light {
   background: #eeeeee;
   margin-left: 1%;
   margin-right: 1%; }
@@ -5611,7 +5611,7 @@ table.hover tbody tr:nth-of-type(even):hover {
     font-family: "Playfair Display", serif;
     height: 5rem; }
 
-.room-background {
+.full-width-background-dark {
   background: #191919;
   margin-left: 1%;
   margin-right: 1%; }
@@ -5645,6 +5645,10 @@ table.hover tbody tr:nth-of-type(even):hover {
 .uber-thumbnail {
   background: url("/assets/images/projects-thumbnails/uber.jpg") no-repeat center center;
   background-size: cover; }
+
+.content-table-bar {
+  background: #e62027;
+  width: 0.25rem; }
 
 a.primary:hover {
   text-decoration: none;
