@@ -5642,6 +5642,10 @@ table.hover tbody tr:nth-of-type(even):hover {
   background: url("/assets/images/projects-thumbnails/identity.jpg") no-repeat center center;
   background-size: cover; }
 
+.identity-hero {
+  background: url("/assets/images/projects-heroes/identity-hero.jpg") no-repeat center center;
+  background-size: cover; }
+
 .uber-thumbnail {
   background: url("/assets/images/projects-thumbnails/uber.jpg") no-repeat center center;
   background-size: cover; }
@@ -5847,6 +5851,9 @@ a.disabled {
 .font-secondary {
   opacity: 0.6; }
 
+.font-content {
+  font-family: "Playfair Display", serif; }
+
 /*
 
    LINE HEIGHT / LEADING
@@ -5859,7 +5866,7 @@ a.disabled {
   line-height: 1.25; }
 
 .lh-copy {
-  line-height: 1.5; }
+  line-height: 2; }
 
 @media (--breakpoint-not-small) {
   .lh-solid-ns {
