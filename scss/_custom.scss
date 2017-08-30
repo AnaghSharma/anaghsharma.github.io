@@ -241,6 +241,22 @@
   background-size: cover;
 }
 
+.behance-thumbnail {
+  background: url("/assets/images/projects-thumbnails/behance.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  &:hover {
+    background: url("/assets/images/projects-thumbnails/behance-hover.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
 .uber-thumbnail {
   background: url("/assets/images/projects-thumbnails/uber.jpg") no-repeat center center; 
   -webkit-background-size: cover;

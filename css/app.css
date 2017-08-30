@@ -5646,6 +5646,13 @@ table.hover tbody tr:nth-of-type(even):hover {
   background: url("/assets/images/projects-heroes/identity-hero.jpg") no-repeat center center;
   background-size: cover; }
 
+.behance-thumbnail {
+  background: url("/assets/images/projects-thumbnails/behance.jpg") no-repeat center center;
+  background-size: cover; }
+  .behance-thumbnail:hover {
+    background: url("/assets/images/projects-thumbnails/behance-hover.jpg") no-repeat center center;
+    background-size: cover; }
+
 .uber-thumbnail {
   background: url("/assets/images/projects-thumbnails/uber.jpg") no-repeat center center;
   background-size: cover; }
