@@ -5648,9 +5648,18 @@ table.hover tbody tr:nth-of-type(even):hover {
 
 .behance-thumbnail {
   background: url("/assets/images/projects-thumbnails/behance.jpg") no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+  transition: 0.2s; }
   .behance-thumbnail:hover {
     background: url("/assets/images/projects-thumbnails/behance-hover.jpg") no-repeat center center;
+    background-size: cover; }
+
+.xbox-thumbnail {
+  background: url("/assets/images/projects-thumbnails/xbox.jpg") no-repeat center center;
+  background-size: cover;
+  transition: 0.1s; }
+  .xbox-thumbnail:hover {
+    background: url("/assets/images/projects-thumbnails/xbox-hover.jpg") no-repeat center center;
     background-size: cover; }
 
 .uber-thumbnail {

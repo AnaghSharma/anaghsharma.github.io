@@ -247,9 +247,35 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 
   &:hover {
     background: url("/assets/images/projects-thumbnails/behance-hover.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+.xbox-thumbnail {
+  background: url("/assets/images/projects-thumbnails/xbox.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -o-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+
+  &:hover {
+    background: url("/assets/images/projects-thumbnails/xbox-hover.jpg") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
