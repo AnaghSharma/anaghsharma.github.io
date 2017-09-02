@@ -5678,6 +5678,10 @@ table.hover tbody tr:nth-of-type(even):hover {
   background: #e62027;
   width: 0.25rem; }
 
+.blog-list {
+  background: #333333;
+  border-radius: 2px; }
+
 a.active {
   color: #e62027; }
 
