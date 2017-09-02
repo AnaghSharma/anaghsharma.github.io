@@ -1,3 +1,7 @@
+a.active {
+  color: $primary-color;
+}
+
 a.primary:hover {
   text-decoration: none;
   border-bottom: 3px solid $primary-color;

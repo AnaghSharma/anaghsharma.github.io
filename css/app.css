@@ -5648,27 +5648,27 @@ table.hover tbody tr:nth-of-type(even):hover {
 
 .behance-thumbnail {
   background: url("/assets/images/projects-thumbnails/behance.jpg") no-repeat center center;
-  background-size: cover;
-  transition: 0.2s; }
+  background-size: cover; }
   .behance-thumbnail:hover {
     background: url("/assets/images/projects-thumbnails/behance-hover.jpg") no-repeat center center;
-    background-size: cover; }
+    background-size: cover;
+    transition: 0.3s; }
 
 .xbox-thumbnail {
   background: url("/assets/images/projects-thumbnails/xbox.jpg") no-repeat center center;
-  background-size: cover;
-  transition: 0.1s; }
+  background-size: cover; }
   .xbox-thumbnail:hover {
     background: url("/assets/images/projects-thumbnails/xbox-hover.jpg") no-repeat center center;
-    background-size: cover; }
+    background-size: cover;
+    transition: 0.3s; }
 
 .monocle-thumbnail {
   background: url("/assets/images/projects-thumbnails/monocle.jpg") no-repeat center center;
-  background-size: cover;
-  transition: 0.1s; }
+  background-size: cover; }
   .monocle-thumbnail:hover {
     background: url("/assets/images/projects-thumbnails/monocle-hover.jpg") no-repeat center center;
-    background-size: cover; }
+    background-size: cover;
+    transition: 0.3s; }
 
 .uber-thumbnail {
   background: url("/assets/images/projects-thumbnails/uber.jpg") no-repeat center center;
@@ -5677,6 +5677,9 @@ table.hover tbody tr:nth-of-type(even):hover {
 .content-table-bar {
   background: #e62027;
   width: 0.25rem; }
+
+a.active {
+  color: #e62027; }
 
 a.primary:hover {
   text-decoration: none;
