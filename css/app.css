@@ -5929,7 +5929,7 @@ a.disabled {
 
 */
 .tracked {
-  letter-spacing: .1em; }
+  letter-spacing: .05em; }
 
 .tracked-tight {
   letter-spacing: -.05em; }
@@ -5939,7 +5939,7 @@ a.disabled {
 
 @media (--breakpoint-not-small) {
   .tracked-ns {
-    letter-spacing: .1em; }
+    letter-spacing: .05em; }
   .tracked-tight-ns {
     letter-spacing: -.05em; }
   .tracked-mega-ns {
@@ -5947,7 +5947,7 @@ a.disabled {
 
 @media (--breakpoint-medium) {
   .tracked-m {
-    letter-spacing: .1em; }
+    letter-spacing: .05em; }
   .tracked-tight-m {
     letter-spacing: -.05em; }
   .tracked-mega-m {
@@ -5955,7 +5955,7 @@ a.disabled {
 
 @media (--breakpoint-large) {
   .tracked-l {
-    letter-spacing: .1em; }
+    letter-spacing: .05em; }
   .tracked-tight-l {
     letter-spacing: -.05em; }
   .tracked-mega-l {

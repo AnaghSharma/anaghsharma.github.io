@@ -89,15 +89,17 @@ keywords: design, portfolio, development, designer
     <div class="row mt5 mb6">
       <div class="large-9 middle-6 small-12 columns divider pr3">
         <hr class="font-secondary"/>
-        <h6 class="f6 font-medium font-secondary mt4 mb1">LATEST ARTICLE / READ TIME - 7m 25s</h6>
-        <a href="https://medium.com/@AnaghSharma/the-power-of-side-projects-e6ba20826f69" class="heading f2 font-bold lh-title">The Power of Side Projects</a>
+        {% for post in site.posts limit:1 %}
+          <h6 class="f6 font-medium font-secondary mt4 mb1">LATEST ARTICLE / READ TIME - {{ post.read-time}}</h6>
+          <a href="{{ post.url }}" class="heading f2 font-bold lh-title">{{ post.title }}</a>
+        {% endfor %}
         <div class="mt5 mb3">
           <h6 class="f6 font-medium font-secondary" style="display: inline;">OTHER ARTICLES</h6>
-          <a href="" class="font-primary-color f6 font-medium ml2" style="vertical-align: center;">SEE ALL</a>
+          <a href="{{ site.url }}/blog" class="font-primary-color f6 font-medium ml2" style="vertical-align: center;">SEE ALL</a>
         </div>
         <div class="row">
           <div class="large-4 medium-4 columns mt1">
-            <a href="https://medium.com/@AnaghSharma/from-the-pen-of-an-insecure-designer-5709e2a2254f" class="primary no-decoration-light">  
+            <a href="{{ site.url }}/blog/from-the-pen-of-an-insecure-designer/" class="primary no-decoration-light">  
               <div class="blog-card pt3">
                 <h5 class="f4 mh3 font-secondary-bold lh-title">From the pen of an insecure Designer (?)</h5>
                 <h6 class="f6 mh3 font-medium font-secondary">OCTOBER 13, 2016<br>READ TIME - 2m 34s</h6>
