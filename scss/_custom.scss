@@ -216,6 +216,13 @@
   border-radius: 2px;
 }
 
+.garage-card {
+  background: $primary-color;
+  width: 100%;
+  height: 6rem;
+  border-radius: 4px;
+}
+
 .display-pic {
 
   @include breakpoint (small only){
@@ -320,4 +327,10 @@
 .blog-list {
   background: #333333;
   border-radius: 2px;
+}
+
+.article-sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }

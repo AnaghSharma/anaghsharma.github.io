@@ -8,7 +8,6 @@ keywords: blog, writing, design, portfolio, development, designer, experience
 
 <div class="row mt6 mb6">
     <div class="large-9 middle-6 small-12 columns divider pr3">
-        
             {% for post in site.posts limit:1 %}
                 <h6 class="f6 font-medium font-secondary mt4 mb1">LATEST ARTICLE / READ TIME - {{ post.read-time}}</h6>
                 <a href="{{ post.url }}" class="heading f2 font-bold lh-title">{{ post.title }}</a>
