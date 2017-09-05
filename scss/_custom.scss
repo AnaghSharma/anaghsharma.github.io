@@ -269,6 +269,14 @@
   }
 }
 
+.behance-hero {
+  background: url("/assets/images/projects-heroes/behance-hero.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .xbox-thumbnail {
   background: url("/assets/images/projects-thumbnails/xbox.jpg") no-repeat center center; 
   -webkit-background-size: cover;

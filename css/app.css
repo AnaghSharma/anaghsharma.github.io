@@ -5660,6 +5660,10 @@ table.hover tbody tr:nth-of-type(even):hover {
     background-size: cover;
     transition: 0.3s; }
 
+.behance-hero {
+  background: url("/assets/images/projects-heroes/behance-hero.jpg") no-repeat center center;
+  background-size: cover; }
+
 .xbox-thumbnail {
   background: url("/assets/images/projects-thumbnails/xbox.jpg") no-repeat center center;
   background-size: cover; }
