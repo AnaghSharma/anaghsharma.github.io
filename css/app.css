@@ -5650,11 +5650,11 @@ table.hover tbody tr:nth-of-type(even):hover {
     margin-bottom: 4rem; } }
 
 .identity-thumbnail {
-  background: url("/assets/images/projects-thumbnails/identity.jpg") no-repeat center center;
+  background: url("/assets/images/projects/identity/thumbnail.jpg") no-repeat center center;
   background-size: cover; }
 
 .identity-hero {
-  background: url("/assets/images/projects-heroes/identity-hero.jpg") no-repeat center center;
+  background: url("/assets/images/projects/identity/hero.jpg") no-repeat center center;
   background-size: cover; }
 
 .behance-thumbnail {
