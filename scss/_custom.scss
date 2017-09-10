@@ -255,14 +255,14 @@
 }
 
 .behance-thumbnail {
-  background: url("/assets/images/projects-thumbnails/behance.jpg") no-repeat center center; 
+  background: url("/assets/images/projects/behance/thumbnail.jpg") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
   &:hover {
-    background: url("/assets/images/projects-thumbnails/behance-hover.jpg") no-repeat center center; 
+    background: url("/assets/images/projects/behance/thumbnail-hover.jpg") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -276,7 +276,7 @@
 }
 
 .behance-hero {
-  background: url("/assets/images/projects-heroes/behance-hero.jpg") no-repeat center center; 
+  background: url("/assets/images/projects/behance/hero.jpg") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

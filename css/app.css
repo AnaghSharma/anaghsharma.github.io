@@ -5658,15 +5658,15 @@ table.hover tbody tr:nth-of-type(even):hover {
   background-size: cover; }
 
 .behance-thumbnail {
-  background: url("/assets/images/projects-thumbnails/behance.jpg") no-repeat center center;
+  background: url("/assets/images/projects/behance/thumbnail.jpg") no-repeat center center;
   background-size: cover; }
   .behance-thumbnail:hover {
-    background: url("/assets/images/projects-thumbnails/behance-hover.jpg") no-repeat center center;
+    background: url("/assets/images/projects/behance/thumbnail-hover.jpg") no-repeat center center;
     background-size: cover;
     transition: 0.3s; }
 
 .behance-hero {
-  background: url("/assets/images/projects-heroes/behance-hero.jpg") no-repeat center center;
+  background: url("/assets/images/projects/behance/hero.jpg") no-repeat center center;
   background-size: cover; }
 
 .xbox-thumbnail {
