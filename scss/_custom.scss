@@ -153,7 +153,7 @@
   background-image: url("/assets/images/ovals-background.png");
   background-size: cover;
   background-repeat: no-repeat;
-  margin-right: 0.25rem;
+  //margin-right: 0.25rem;
 
   @include breakpoint(small only){
     margin-top: 4rem;
@@ -347,4 +347,17 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+}
+
+.article-container {
+  p {
+    line-height: 2;
+  }
+}
+
+.article-title {
+  margin-top: -8rem;
+  .card {
+    background-color: $primary-color;
+  }
 }

@@ -5580,8 +5580,7 @@ table.hover tbody tr:nth-of-type(even):hover {
   background: #333333;
   background-image: url("/assets/images/ovals-background.png");
   background-size: cover;
-  background-repeat: no-repeat;
-  margin-right: 0.25rem; }
+  background-repeat: no-repeat; }
   @media screen and (max-width: 39.9375em) {
     .sidebar {
       margin-top: 4rem;
@@ -5701,6 +5700,14 @@ table.hover tbody tr:nth-of-type(even):hover {
   position: -webkit-sticky;
   position: sticky;
   top: 0; }
+
+.article-container p {
+  line-height: 2; }
+
+.article-title {
+  margin-top: -8rem; }
+  .article-title .card {
+    background-color: #e62027; }
 
 a.active {
   color: #e62027; }
