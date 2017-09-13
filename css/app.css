@@ -5705,9 +5705,19 @@ table.hover tbody tr:nth-of-type(even):hover {
   line-height: 2; }
 
 .article-title {
-  margin-top: -8rem; }
-  .article-title .card {
-    background-color: #e62027; }
+  font-size: 4.5rem;
+  margin-left: 0; }
+  @media screen and (max-width: 67.4375em) {
+    .article-title {
+      font-size: 3rem; } }
+
+.article-background {
+  background: #ffffff;
+  border-radius: 1rem; }
+  @media screen and (max-width: 67.4375em) {
+    .article-background {
+      margin-left: 1%;
+      margin-right: 1%; } }
 
 a.active {
   color: #e62027; }

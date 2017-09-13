@@ -1,47 +1,19 @@
 ---
 layout: default
 ---
-<!-- <div class="row mt6">
-  <div class="large-6 medium-8 small-12 large-centered medium-centered columns mt6">
-    <h1 class="font-light f1 text-center">{{ page.title }}</h1>
-    <h6 class="text-center">by {{ page.author }}</h5>
+<div class="row mt5">
+  <div class="large-6 medium-6 small-10 columns mt6 mb5">
+    <h1 class="font-medium lh-title article-title">{{ page.title }}</h1>
   </div>
-</div> -->
-<section class="pt7">
-    <div class="full-width-background-light mt7 pv6">
-        <div class="row">
-                <div class="columns" style="margin-top: -8rem;">
-                        <a class="heading disabled">
-                                <div class="portfolio-project-card horizontal-rect-12 pv5" style="background: #e62027">
-                                    <h1 class="font-medium f1 text-center">{{ page.title }}</h1>
-                                </div>
-                              </a>
-                            </div>                            
-            <div class="large-7 medium-7 large-offset-2 medium-offset-2 columns">
+</div>
+<section>
+    
+        <div class="row article-background mv6 pv6">                        
+            <div class="large-7 medium-7 large-offset-1 medium-offset-1 columns">
                 <span class="article-container text-justify font-dark">{{ content }}</span>
             </div>
-            <!-- <div class="large-3 medium-3 small-collapsed columns">
-                    <ul class="mt1 no-bullet article-sidebar">
-                        <li class="mt2 mb4">
-                            <h6 class="font-medium font-dark font-secondary f6 mb0">YOU ARE HERE</h6>
-                            <p class="mt1 font-dark">Home / Blog / {{ page.title }}</p>
-                        </li>
-                        <li class="mt2 mb4">
-                            <h6 class="font-medium font-dark font-secondary f6 mb0">PUBLISHED ON</h6>
-                            <p class="mt1 font-dark">{{ page.date | date_to_long_string }}</p>
-                        </li>
-                        <li class="mt2 mb4">
-                            <h6 class="font-medium font-dark font-secondary f6 mb0">READ TIME</h6>
-                            <p class="mt1 font-dark">{{ page.read-time }}</a>
-                        </li>
-                    </ul>
-                </div> -->
-                <div class="large-2 medium-2 columns sidebar ph3 pv2">
+                <div class="large-3 medium-3 columns sidebar ph3 pv2 mr4">
                     <ul class="no-bullet">
-                        <!-- <li class="mt2 mb4">
-                            <h6 class="font-medium font-secondary f6 mb0">YOU ARE HERE</h6>
-                            <p class="mt1 font-dark">Home / Blog / {{ page.title }}</p>
-                        </li> -->
                         <li class="mv3">
                             <h6 class="font-medium font-secondary f6 mb0">PUBLISHED ON</h6>
                             <p class="mt1">{{ page.date | date_to_long_string }}</p>
@@ -57,5 +29,5 @@ layout: default
                     </ul>        
                 </div>
         </div> 
-    </div>    
+    
 </section>
