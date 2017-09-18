@@ -284,14 +284,14 @@
 }
 
 .xbox-thumbnail {
-  background: url("/assets/images/projects-thumbnails/xbox.jpg") no-repeat center center; 
+  background: url("/assets/images/projects/xbox/thumbnail.jpg") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
   &:hover {
-    background: url("/assets/images/projects-thumbnails/xbox-hover.jpg") no-repeat center center; 
+    background: url("/assets/images/projects/xbox/thumbnail-hover.jpg") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -302,6 +302,14 @@
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
+}
+
+.xbox-hero {
+  background: url("/assets/images/projects/xbox/hero.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .monocle-thumbnail {
