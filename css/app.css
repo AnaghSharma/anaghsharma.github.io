@@ -5689,8 +5689,12 @@ table.hover tbody tr:nth-of-type(even):hover {
     transition: 0.3s; }
 
 .uber-thumbnail {
-  background: url("/assets/images/projects-thumbnails/uber.jpg") no-repeat center center;
+  background: url("/assets/images/projects/uber/thumbnail.jpg") no-repeat center center;
   background-size: cover; }
+  .uber-thumbnail:hover {
+    background: url("/assets/images/projects/uber/thumbnail-hover.jpg") no-repeat center center;
+    background-size: cover;
+    transition: 0.3s; }
 
 .content-table-bar {
   background: #e62027;
