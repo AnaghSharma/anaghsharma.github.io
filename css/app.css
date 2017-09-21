@@ -5727,6 +5727,15 @@ table.hover tbody tr:nth-of-type(even):hover {
       margin-left: 1%;
       margin-right: 1%; } }
 
+.full-screen-menu {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #000000;
+  opacity: 0.7;
+  position: absolute; }
+
 a.active {
   color: #e62027; }
 
