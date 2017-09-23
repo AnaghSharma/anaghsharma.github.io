@@ -39,8 +39,10 @@
         var x = document.getElementById("overlaymenu");
         if (x.className === "hide") {
             x.className = "full-screen-menu";
+            $("body").addClass("disable-scroll");
         } else {
             x.className = "hide";
+            $("body").removeClass("disable-scroll")
         }
       }
     </script>
