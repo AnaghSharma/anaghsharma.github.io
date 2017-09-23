@@ -5721,7 +5721,7 @@ table.hover tbody tr:nth-of-type(even):hover {
 
 .article-background {
   background: #ffffff;
-  border-radius: 1rem; }
+  border-radius: 0.25rem; }
   @media screen and (max-width: 67.4375em) {
     .article-background {
       margin-left: 1%;
@@ -5733,8 +5733,9 @@ table.hover tbody tr:nth-of-type(even):hover {
   right: 0;
   bottom: 0;
   background: #000000;
-  opacity: 0.9;
-  position: absolute; }
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.3s ease-out; }
   .full-screen-menu ul {
     position: absolute;
     left: 50%;
@@ -5747,6 +5748,9 @@ table.hover tbody tr:nth-of-type(even):hover {
     position: absolute;
     top: 5%;
     right: 5%; }
+
+.full-screen-menu.show {
+  opacity: 1; }
 
 body.disable-scroll {
   overflow: hidden; }

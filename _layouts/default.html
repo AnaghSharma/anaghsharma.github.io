@@ -37,12 +37,12 @@
     <script>
       function togglemenu(){
         var x = document.getElementById("overlaymenu");
-        if (x.className === "hide") {
-            x.className = "full-screen-menu";
+        if (x.className === "full-screen-menu") {
+            x.className = "full-screen-menu show";
             $("body").addClass("disable-scroll");
             $("html").addClass("disable-scroll");
         } else {
-            x.className = "hide";
+            x.className = "full-screen-menu";
             $("body").removeClass("disable-scroll");
             $("html").removeClass("disable-scroll");
         }

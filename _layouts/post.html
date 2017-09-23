@@ -7,27 +7,25 @@ layout: default
   </div>
 </div>
 <section>
-    
-        <div class="row article-background mv6 pv6">                        
-            <div class="large-7 medium-7 large-offset-1 medium-offset-1 columns">
-                <span class="article-container text-justify font-dark">{{ content }}</span>
-            </div>
-                <div class="large-3 medium-3 columns sidebar ph3 pv2 mr4">
-                    <ul class="no-bullet">
-                        <li class="mv3">
-                            <h6 class="font-medium font-secondary f6 mb0">PUBLISHED ON</h6>
-                            <p class="mt1">{{ page.date | date_to_long_string }}</p>
-                        </li>
-                        <li class="mv3">
-                            <h6 class="font-medium font-secondary f6 mb0">READ TIME</h6>
-                            <p class="mt1">{{ page.read-time }}</a>
-                        </li>
-                        <li class="mv3">
-                            <h6 class="font-medium font-secondary f6 mb0">AUTHOR</h6>
-                            <p class="mt1">{{ page.author }}</a>
-                        </li>
-                    </ul>        
-                </div>
-        </div> 
-    
+    <div class="row article-background mv6 pv6">                        
+        <div class="large-7 medium-7 large-offset-1 medium-offset-1 columns">
+            <span class="article-container text-justify font-dark">{{ content }}</span>
+        </div>
+        <div class="large-3 medium-3 columns sidebar ph3 pv2 mr4">
+            <ul class="no-bullet">
+                <li class="mv3">
+                    <h6 class="font-medium font-secondary f6 mb0">PUBLISHED ON</h6>
+                    <p class="mt1">{{ page.date | date_to_long_string }}</p>
+                </li>
+                <li class="mv3">
+                    <h6 class="font-medium font-secondary f6 mb0">READ TIME</h6>
+                    <p class="mt1">{{ page.read-time }}</a>
+                </li>
+                <li class="mv3">
+                    <h6 class="font-medium font-secondary f6 mb0">AUTHOR</h6>
+                    <p class="mt1">{{ page.author }}</a>
+                </li>
+            </ul>        
+        </div>
+    </div> 
 </section>
