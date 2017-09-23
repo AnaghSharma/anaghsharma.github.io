@@ -5751,6 +5751,9 @@ table.hover tbody tr:nth-of-type(even):hover {
 body.disable-scroll {
   overflow: hidden; }
 
+html.disable-scroll {
+  overflow: hidden; }
+
 a.active {
   color: #e62027; }
 
