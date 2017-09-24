@@ -5733,6 +5733,7 @@ table.hover tbody tr:nth-of-type(even):hover {
   right: 0;
   bottom: 0;
   background: #000000;
+  visibility: hidden;
   opacity: 0;
   position: absolute;
   transition: opacity 0.3s ease-out; }
@@ -5750,7 +5751,9 @@ table.hover tbody tr:nth-of-type(even):hover {
     right: 5%; }
 
 .full-screen-menu.show {
-  opacity: 1; }
+  visibility: visible;
+  opacity: 1;
+  z-index: 1; }
 
 body.disable-scroll {
   overflow: hidden; }
