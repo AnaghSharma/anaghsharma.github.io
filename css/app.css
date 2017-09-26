@@ -5761,6 +5761,9 @@ body.disable-scroll {
 html.disable-scroll {
   overflow: hidden; }
 
+.placeholder {
+  background: #ffffff; }
+
 a.active {
   color: #e62027; }
 
