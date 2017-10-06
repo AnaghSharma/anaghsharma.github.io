@@ -5764,6 +5764,14 @@ html.disable-scroll {
 .placeholder {
   background: #ffffff; }
 
+.behance-store-thumbnail {
+  background: url("/assets/images/store/view-for-behance.jpg") no-repeat center center;
+  background-size: cover; }
+  .behance-store-thumbnail:hover {
+    background: url("/assets/images/store/view-for-behance.jpg") no-repeat center center;
+    background-size: cover;
+    transition: 0.3s; }
+
 a.active {
   color: #e62027; }
 
