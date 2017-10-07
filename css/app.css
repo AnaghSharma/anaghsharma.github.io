@@ -5764,13 +5764,26 @@ html.disable-scroll {
 .placeholder {
   background: #ffffff; }
 
+.store-product-container {
+  position: relative; }
+  .store-product-container a {
+    position: absolute;
+    right: 1rem;
+    left: 1rem;
+    margin: auto;
+    bottom: 1rem;
+    border: 1px solid #212121; }
+    .store-product-container a:visited {
+      color: #ffffff;
+      text-decoration: none; }
+
 .behance-store-thumbnail {
   background: url("/assets/images/store/view-for-behance.jpg") no-repeat center center;
   background-size: cover; }
-  .behance-store-thumbnail:hover {
-    background: url("/assets/images/store/view-for-behance.jpg") no-repeat center center;
-    background-size: cover;
-    transition: 0.3s; }
+
+.carol-store-thumbnail {
+  background: url("/assets/images/store/carol.jpg") no-repeat center center;
+  background-size: cover; }
 
 a.active {
   color: #e62027; }

@@ -446,23 +446,36 @@ html.disable-scroll {
   background: $white;
 }
 
+.store-product-container {
+  position: relative;
+  
+  a {
+    position:absolute;
+    right: 1rem;
+    left: 1rem;
+    margin: auto;
+    bottom:1rem;
+    border: 1px solid #212121;
+
+    &:visited {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+}
+
 .behance-store-thumbnail {
   background: url("/assets/images/store/view-for-behance.jpg") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
 
-  &:hover {
-    background: url("/assets/images/store/view-for-behance.jpg") no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    -o-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  }
+.carol-store-thumbnail {
+  background: url("/assets/images/store/carol.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
