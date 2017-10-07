@@ -449,13 +449,12 @@ html.disable-scroll {
 .store-product-container {
   position: relative;
   
-  a {
+  .cta {
     position:absolute;
     right: 1rem;
     left: 1rem;
     margin: auto;
     bottom:1rem;
-    border: 1px solid #212121;
 
     &:visited {
       color: #ffffff;
@@ -474,6 +473,14 @@ html.disable-scroll {
 
 .carol-store-thumbnail {
   background: url("/assets/images/store/carol.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.wallpapers-store-thumbnail {
+  background: url("/assets/images/store/wallpapers.jpg") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
