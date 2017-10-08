@@ -5788,6 +5788,10 @@ html.disable-scroll {
   background: url("/assets/images/store/wallpapers.jpg") no-repeat center center;
   background-size: cover; }
 
+.promote-store-thumbnail {
+  background: url("/assets/images/store/promote.jpg") no-repeat center center;
+  background-size: cover; }
+
 a.active {
   color: #e62027; }
 
