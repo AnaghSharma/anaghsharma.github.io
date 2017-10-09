@@ -46,12 +46,60 @@ a.disabled {
   box-shadow: 0 0 8px 0 rgba(0,0,0,0.12), 0 8px 8px 0 rgba(0,0,0,0.24);
 }
 
-// .button-link {
-//   font-size: 0.9rem;
-// }
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
-// .button-link:hover {
-//   text-decoration: none;
-//   border-bottom: 3px solid $primary-color;
-//   padding-bottom: 6px;
-// }
+.social-icon {
+  color: #212121;
+}
+
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+}
+
+.social-icons a {
+  color: #212121;
+  text-decoration: none;
+}
+
+.fa-envelope {
+  padding:16px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: $white;
+}
+
+.fa-envelope:hover {
+  background-color: $primary-color;
+}
+
+.fa-twitter {
+  padding: 16px 15px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: $white;
+}
+
+.fa-twitter:hover {
+  background-color: #00aced;
+}
+
+.fa-facebook {
+  padding:16px 19px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: $white;
+}
+
+.fa-facebook:hover {
+  background-color: #3d5b99;
+}

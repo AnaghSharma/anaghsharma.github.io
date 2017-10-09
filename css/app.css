@@ -6,6 +6,7 @@
  * Licensed under MIT Open Source
  */
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 .slide-in-down.mui-enter, .slide-in-left.mui-enter, .slide-in-up.mui-enter, .slide-in-right.mui-enter, .slide-out-down.mui-leave, .slide-out-right.mui-leave, .slide-out-up.mui-leave, .slide-out-left.mui-leave, .fade-in.mui-enter, .fade-out.mui-leave, .hinge-in-from-top.mui-enter, .hinge-in-from-right.mui-enter, .hinge-in-from-bottom.mui-enter, .hinge-in-from-left.mui-enter, .hinge-in-from-middle-x.mui-enter, .hinge-in-from-middle-y.mui-enter, .hinge-out-from-top.mui-leave, .hinge-out-from-right.mui-leave, .hinge-out-from-bottom.mui-leave, .hinge-out-from-left.mui-leave, .hinge-out-from-middle-x.mui-leave, .hinge-out-from-middle-y.mui-leave, .scale-in-up.mui-enter, .scale-in-down.mui-enter, .scale-out-up.mui-leave, .scale-out-down.mui-leave, .spin-in.mui-enter, .spin-out.mui-leave, .spin-in-ccw.mui-enter, .spin-out-ccw.mui-leave {
   transition-duration: 500ms;
   transition-timing-function: linear; }
@@ -5831,6 +5832,41 @@ a.disabled {
 
 .action-button:active {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12), 0 8px 8px 0 rgba(0, 0, 0, 0.24); }
+
+.social-icon {
+  color: #212121; }
+
+.social-icons li {
+  vertical-align: top;
+  display: inline; }
+
+.social-icons a {
+  color: #212121;
+  text-decoration: none; }
+
+.fa-envelope {
+  padding: 16px 14px;
+  transition: .5s;
+  background-color: #ffffff; }
+
+.fa-envelope:hover {
+  background-color: #e62027; }
+
+.fa-twitter {
+  padding: 16px 15px;
+  transition: .5s;
+  background-color: #ffffff; }
+
+.fa-twitter:hover {
+  background-color: #00aced; }
+
+.fa-facebook {
+  padding: 16px 19px;
+  transition: .5s;
+  background-color: #ffffff; }
+
+.fa-facebook:hover {
+  background-color: #3d5b99; }
 
 /*
 
