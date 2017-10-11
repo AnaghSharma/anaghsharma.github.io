@@ -354,6 +354,14 @@
   }
 }
 
+.uber-hero {
+  background: url("/assets/images/projects/uber/hero.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .content-table-bar {
   background: $primary-color;
   width: 0.25rem;

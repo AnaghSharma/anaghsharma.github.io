@@ -5697,6 +5697,10 @@ table.hover tbody tr:nth-of-type(even):hover {
     background-size: cover;
     transition: 0.3s; }
 
+.uber-hero {
+  background: url("/assets/images/projects/uber/hero.jpg") no-repeat center center;
+  background-size: cover; }
+
 .content-table-bar {
   background: #e62027;
   width: 0.25rem; }
