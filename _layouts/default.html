@@ -4,7 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if page.title == 'Home' %}
+    <title>{{ site.name }} - Product Designer</title>
+    {% else %}
     <title>{{ site.name }} / {{ page.title }}</title>
+    {% endif %}
     <meta name="description" content="{{ site.name }} / {{ page.title }}" />
     <meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}" />
     <link rel="stylesheet" href="{{ site.url }}/css/app.css">
