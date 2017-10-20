@@ -1,0 +1,33 @@
+{% assign current = page.url | downcase | split: '/' %}
+<div class="row mt6">
+    <div class="columns">
+      <h6 class="font-medium font-secondary">OTHER PROJECTS</h6>
+    </div>
+  </div>
+<div class="row">
+  <div {% if current[2] == 'personal-identity' %} class='hide'{% endif %} class="large-3 medium-3 columns mt3">
+    <a href="{{ site.url }}/projects/personal-identity">
+      <img src="/assets/images/projects/identity/square-thumbnail.jpg"/>
+    </a>
+  </div>
+  <div {% if current[2] == 'view-for-behance' %} class='hide'{% endif %} class="large-3 medium-3 columns mt3">
+    <a href="{{ site.url }}/projects/view-for-behance">
+      <img src="/assets/images/projects/behance/square-thumbnail.jpg"/>
+    </a>
+  </div>
+  <div {% if current[2] == 'xbox' %} class='hide'{% endif %} class="large-3 medium-3 columns mt3">
+    <a href="{{ site.url }}/projects/xbox">
+      <img src="/assets/images/projects/xbox/thumbnail.jpg"/>
+    </a>
+  </div>
+  <div {% if current[2] == 'buildmlearn' %} class='hide'{% endif %} class="large-3 medium-3 columns mt3">
+    <a href="https://www.behance.net/gallery/24517349/BuildmLearn-App-Store-on-Windows-Phone-Concept">
+      <img src="/assets/images/projects/buildmlearn/thumbnail.jpg"/>
+    </a>
+  </div>
+  <div {% if current[2] == 'uber' %} class='hide'{% endif %} class="large-3 medium-3 columns mt3">
+    <a href="{{ site.url }}/projects/uber">
+      <img src="/assets/images/projects/uber/square-thumbnail.jpg"/>
+    </a>
+  </div>
+</div>
