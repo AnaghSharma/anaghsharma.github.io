@@ -4,6 +4,7 @@ title: From the Pen of an Insecure Designer
 author: Anagh Sharma
 read-time: 2m 34s
 permalink: '/blog/from-the-pen-of-an-insecure-designer/'
+comments: true
 ---
 
 Last week I enrolled in an online course in UI design on Coursera. And like many other courses on Design, this one is also being taught by Computer Science professors. In the very first video, they introduced themselves and told their stories of how they got into Design. Even if they design something or the other, or they teach design they are still Computer Scientists/Engineers/Professors. In the same video they spoke about the Human Computer Interaction and how it is an intersection of different fields of study such as Human Psychology, Design disciplines and Computer Science. 

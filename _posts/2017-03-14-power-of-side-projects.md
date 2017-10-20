@@ -4,6 +4,7 @@ title: The Power of Side Projects
 author: Anagh Sharma
 read-time: 7m 25s
 permalink: '/blog/the-power-of-side-projects/'
+comments: true
 ---
 
 We always get so many (great) ideas, the ideas which we really want to see to come to life. Some of us take one step further and start working towards that goal. We start dreaming about what the success would look like. But then the reality strikes and we get to know that execution is not at all easy. Most of the projects never really take off. The great enthusiasm fades away. We start procrastinating. Why? I believe because of the fear of failure. But this post is not about procrastination and fear of failure. It’s about what a stupid idea or a side project can do - “**The Power of Side Projects**”.

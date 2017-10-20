@@ -4,6 +4,7 @@ title: Switching to Jekyll & GitHub Pages
 author: Anagh Sharma
 read-time: 3m 55s
 permalink: '/blog/switching-to-jekyll-and-github-pages/'
+comments: true
 ---
 
 ###### **OVERVIEW**
