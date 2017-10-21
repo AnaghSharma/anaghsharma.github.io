@@ -3,7 +3,7 @@
 <div class="row nav-bar mt6">
     <div class="large-1 medium-1 small-2 columns">
         <a href="{{ site.url }}" class="heading">
-            <img class="logo mt2" src="/assets/logo_light.svg"/>     
+            <img class="logo mt2" src="/assets/logo_light.svg" alt="Anagh Sharma logo"/>     
         </a>
     </div>
     <div class="large-5 medium-2 small-8 columns">
@@ -19,13 +19,13 @@
             <li class="ph3"><a href="{{ site.url }}/about" {% if current[1] == 'about' %} class='active font-bold primary'{% endif %} class="font-medium primary">About</a></li>
         </ul>
         <a class="show-for-small-only" onclick="togglemenu()">
-            <img class="mt1 ml2" src="/assets/menu.svg"/>
+            <img class="mt1 ml2" src="/assets/menu.svg" alt="menu"/>
         </a>
     </div>
 </div>
 <div id="overlaymenu" class="full-screen-menu">
     <a class="close" onclick="togglemenu()">
-        <img class="logo mt2" src="/assets/close.svg"/>     
+        <img class="logo mt2" src="/assets/close.svg" alt="close"/>     
     </a>
     <ul class="no-bullet text-center pv2 mb0">
         <li class="mv3"><a href="{{ site.url }}/#projects" {% if current[1] == 'projects' %} class='active font-bold primary f4'{% endif %} class="font-medium primary f4">Projects</a></li>
