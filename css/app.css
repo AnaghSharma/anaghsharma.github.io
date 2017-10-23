@@ -5797,6 +5797,16 @@ html.disable-scroll {
   background: url("/assets/images/store/promote.jpg") no-repeat center center;
   background-size: cover; }
 
+.share-box {
+  background-color: #efefef;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  text-align: center; }
+  @media screen and (max-width: 39.9375em) {
+    .share-box {
+      margin-top: 1rem;
+      margin-right: 0; } }
+
 a.active {
   color: #e62027; }
 
@@ -5871,6 +5881,59 @@ a.disabled {
 
 .fa-facebook:hover {
   background-color: #3d5b99; }
+
+.share-btn {
+  position: relative;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 3px 10px 2px 8px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  background-color: #333;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+  text-decoration: none;
+  font-size: 15px; }
+  .share-btn:hover {
+    text-decoration: none;
+    color: #ffffff; }
+  .share-btn:active {
+    top: 1px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.25); }
+  .share-btn:visited {
+    text-decoration: none;
+    color: #ffffff; }
+
+.share-btn.light {
+  position: relative;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 3px 10px 2px 8px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  color: #000000;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+  text-decoration: none;
+  font-size: 15px; }
+  .share-btn.light:hover {
+    text-decoration: none;
+    color: #000000; }
+  .share-btn.light:active {
+    top: 1px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.25); }
+
+.facebook {
+  background-color: #4A66B7; }
+
+.twitter {
+  background-color: #1B95E0; }
+
+.google-plus {
+  background-color: #fefefe; }
 
 /*
 
