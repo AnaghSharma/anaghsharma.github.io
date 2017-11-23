@@ -5807,6 +5807,9 @@ html.disable-scroll {
       margin-top: 1rem;
       margin-right: 0; } }
 
+.br3 {
+  border-radius: 3px; }
+
 a.active {
   color: #e62027; }
 
