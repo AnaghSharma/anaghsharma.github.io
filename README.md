@@ -1,5 +1,5 @@
-## What
-My personal website built proudly using Jekyll and GitHub pages. [Check it out](http://www.anaghsharma.com).
+## ![www.anaghsharma.com](http://www.anaghsharma.com)
+This is the git repo of my personal website built proudly using Jekyll and GitHub pages. [Check it out](http://www.anaghsharma.com).
 
 ## Follow me for more awesome stuff
 • [Twitter](http://www.anaghsharma.com)<br>
