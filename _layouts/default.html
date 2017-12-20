@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% if page.title == 'Home' %}
+    {% if page.title == 'Anagh Sharma - Design & Make' %}
     <title>{{ site.name }} - Product Designer</title>
     {% else %}
     <title>{{ site.name }} / {{ page.title }}</title>
@@ -21,12 +21,12 @@
     <meta property="og:site_name" content="{{ site.name }}"/>
     <meta property="og:url" content="{{ site.url }}"/>
     <meta property="og:description" content="{{ page.description }}"/>
-    <meta property="og:image" content="{{ page.imageurl }}"/>
+    <meta property="og:image" content="{{ site.url }}/{{ page.imageurl }}"/>
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@{{ site.twitter }}">
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ page.description }}">
-    <meta name="twitter:image" content="{{ page.imageurl }}">
+    <meta name="twitter:image" content="{{ site.url }}/{{ page.imageurl }}">
   </head>
 
   <body>
