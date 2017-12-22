@@ -1,6 +1,9 @@
 ---
 layout: post
 title: The Power of Side Projects
+description: We always get so many ideas, the ideas which we really want to see to come to life. Some of us take one step further and start working towards that goal. Some of us procrastinate. Most of the projects never really take off as we don't have the slightest idea of how impactful a stupid idea or side project can be. Find out more in the article.
+imageurl: assets/images/sm-previews/pre-home.jpg
+keywords: design, projects, side projects, creativity, experiments, free
 author: Anagh Sharma
 read-time: 7m 25s
 permalink: '/blog/the-power-of-side-projects/'

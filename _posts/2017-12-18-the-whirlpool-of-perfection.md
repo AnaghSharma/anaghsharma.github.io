@@ -1,6 +1,9 @@
 ---
 layout: post
 title: The Whirlpool of Perfection
+description: In quest of the perfection, we often end up focusing on the less important things. Trying too hard to make the pixel perfect screen? Is the Information Architecture sorted? Does your solution help people in achieving the goal efficiently? How about focusing on making it efficient first and worrying about the visual design later? Find out more in the article.
+imageurl: assets/images/sm-previews/pre-home.jpg
+keywords: design, side projects, perfection, focus, inspiration
 author: Anagh Sharma
 read-time: 4m 24s
 permalink: '/blog/the-whirlpool-of-perfection/'

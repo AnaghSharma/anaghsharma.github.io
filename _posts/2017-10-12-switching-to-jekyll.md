@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Switching to Jekyll and GitHub Pages
+description: After using WordPress for about a year and half, I decided to switch to Jekyll and Github Pages for the ease of update and customisation. Domain and hosting are free with GitHub pages so you can basically set up a website without spending a dime. With Jekyll, I have more power on the visual design and reusability. Find out more in the article.
+imageurl: assets/images/sm-previews/pre-home.jpg
+keywords: design, jekyll, github, github pages, personal website, wordpress, blog
 author: Anagh Sharma
 read-time: 3m 55s
 permalink: '/blog/switching-to-jekyll-and-github-pages/'

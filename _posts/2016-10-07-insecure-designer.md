@@ -1,6 +1,9 @@
 ---
 layout: post
 title: From the Pen of an Insecure Designer
+description: Having no formal design education can make you feel like an impostor sometimes. You might feel like you don't know anything in design field even after having years of experience. I've had some experiences in the past which make me ponder over my decision of a career in design after graduating in Computer Science and Engineering. Find out more in the article.
+imageurl: assets/images/sm-previews/pre-home.jpg
+keywords: design, education, degree, insecure, failure, engineer
 author: Anagh Sharma
 read-time: 2m 34s
 permalink: '/blog/from-the-pen-of-an-insecure-designer/'
