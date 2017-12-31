@@ -17,3 +17,6 @@ I recently graduated in Computer Science and Engineering. But in the last year o
 
 <br/>
 Experiences like these make me think again on my decision of a career in design. Sometimes I think after graduating in Computer Science and Engineering, do I really need a degree in Design? Then I come across experiences like these courses and my doubts dwindle. Computer Science Engineers/Scientists can also be designers. Heck, anyone can be a designer. Without a degree I may not be a good designer today, but whatever I am doing in the present or I have achieved in the past, I have learned by my own. I'll keep on doing that work basis on how much I know and if I don't know things, I'll figure out them on my own as I have done in the past.
+
+<br>
+<strong>// KEEP MAKING.<strong>
