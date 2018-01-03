@@ -261,6 +261,13 @@
   -o-background-size: cover;
   background-size: cover;
 
+  &:before {
+    content: url("/assets/images/projects/behance/thumbnail-hover.jpg") no-repeat center center;
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
   &:hover {
     background: url("/assets/images/projects/behance/thumbnail-hover.jpg") no-repeat center center; 
     -webkit-background-size: cover;
@@ -289,6 +296,13 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  &:before {
+    content: url("/assets/images/projects/xbox/thumbnail-hover.jpg") no-repeat center center;
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
 
   &:hover {
     background: url("/assets/images/projects/xbox/thumbnail-hover.jpg") no-repeat center center; 
@@ -319,6 +333,13 @@
   -o-background-size: cover;
   background-size: cover;
 
+  &:before {
+    content: url("/assets/images/projects/buildmlearn/thumbnail-hover.jpg") no-repeat center center;
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
   &:hover {
     background: url("/assets/images/projects/buildmlearn/thumbnail-hover.jpg") no-repeat center center; 
     -webkit-background-size: cover;
@@ -339,6 +360,13 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  &:before {
+    content: url("/assets/images/projects/uber/thumbnail-hover.jpg") no-repeat center center;
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
 
   &:hover {
     background: url("/assets/images/projects/uber/thumbnail-hover.jpg") no-repeat center center; 

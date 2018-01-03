@@ -5660,6 +5660,11 @@ table.hover tbody tr:nth-of-type(even):hover {
 .behance-thumbnail {
   background: url("/assets/images/projects/behance/thumbnail.jpg") no-repeat center center;
   background-size: cover; }
+  .behance-thumbnail:before {
+    content: url("/assets/images/projects/behance/thumbnail-hover.jpg") no-repeat center center;
+    height: 0;
+    width: 0;
+    visibility: hidden; }
   .behance-thumbnail:hover {
     background: url("/assets/images/projects/behance/thumbnail-hover.jpg") no-repeat center center;
     background-size: cover;
@@ -5672,6 +5677,11 @@ table.hover tbody tr:nth-of-type(even):hover {
 .xbox-thumbnail {
   background: url("/assets/images/projects/xbox/thumbnail.jpg") no-repeat center center;
   background-size: cover; }
+  .xbox-thumbnail:before {
+    content: url("/assets/images/projects/xbox/thumbnail-hover.jpg") no-repeat center center;
+    height: 0;
+    width: 0;
+    visibility: hidden; }
   .xbox-thumbnail:hover {
     background: url("/assets/images/projects/xbox/thumbnail-hover.jpg") no-repeat center center;
     background-size: cover;
@@ -5684,6 +5694,11 @@ table.hover tbody tr:nth-of-type(even):hover {
 .buildmlearn-thumbnail {
   background: url("/assets/images/projects/buildmlearn/thumbnail.jpg") no-repeat center center;
   background-size: cover; }
+  .buildmlearn-thumbnail:before {
+    content: url("/assets/images/projects/buildmlearn/thumbnail-hover.jpg") no-repeat center center;
+    height: 0;
+    width: 0;
+    visibility: hidden; }
   .buildmlearn-thumbnail:hover {
     background: url("/assets/images/projects/buildmlearn/thumbnail-hover.jpg") no-repeat center center;
     background-size: cover;
@@ -5692,6 +5707,11 @@ table.hover tbody tr:nth-of-type(even):hover {
 .uber-thumbnail {
   background: url("/assets/images/projects/uber/thumbnail.jpg") no-repeat center center;
   background-size: cover; }
+  .uber-thumbnail:before {
+    content: url("/assets/images/projects/uber/thumbnail-hover.jpg") no-repeat center center;
+    height: 0;
+    width: 0;
+    visibility: hidden; }
   .uber-thumbnail:hover {
     background: url("/assets/images/projects/uber/thumbnail-hover.jpg") no-repeat center center;
     background-size: cover;
