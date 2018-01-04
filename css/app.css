@@ -5827,6 +5827,9 @@ html.disable-scroll {
       margin-top: 1rem;
       margin-right: 0; } }
 
+.promote-background {
+  background-color: #ffffff; }
+
 .br3 {
   border-radius: 3px; }
 
