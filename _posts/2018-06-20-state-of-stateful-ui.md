@@ -192,7 +192,10 @@ stateMachine.ShowError();
 
 <br>
 ###### **RESULTS**
-Since I had a hard time implementing all this, I was sceptical about its scalability. I also thought if I was doing something of an overkill here. But it all turned out to be fine. I was able to add another state - **Empty** and load a corresponding UI view whenever that state is entered. 
+Since I had a hard time implementing all this, I was sceptical about its scalability. I also thought if I was doing something of an overkill here. But it all turned out to be fine. I was able to add another state - **Empty** and load a corresponding UI view whenever that state is entered.
+
+<br>
+![different views added]({{ site.url }}/assets/images/posts/sosui-3.jpg)
 
 <br>
 The way I approached UI design for this app was not entirely mistaken. Initially, I had only thought of an additional error state which could have been handled by a couple of if-else conditional statements. What I learned from this project is a way to think of UI design as various states of a state machine. From now on, I instinctively consider a UI content screen as having a minimum of 4 states - Empty, Loading, Content and Error.
