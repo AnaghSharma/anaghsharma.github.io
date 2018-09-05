@@ -7,7 +7,7 @@
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-load-plugins": "^1.1.0",
-    "gulp-sass": "^2.1.0"
+    "gulp-sass": "^2.3.2"
   },
   "scripts": {
     "start": "gulp",
@@ -26,7 +26,9 @@
   "private": true,
   "dependencies": {
     "gulp-autoprefixer": "^3.1.0",
+    "gulp-update": "0.0.2",
     "hoek": "^5.0.3",
-    "npm": "^6.1.0"
+    "natives": "^1.1.4",
+    "npm": "^6.4.1"
   }
 }
