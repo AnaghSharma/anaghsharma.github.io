@@ -57,51 +57,55 @@ a.disabled {
   display: inline;
 }
 
-.social-icons a {
-  color: #212121;
-  text-decoration: none;
+// .social-icons a {
+//   color: #212121;
+//   text-decoration: none;
+// }
+
+@mixin icon-button($height, $width,  $line-height, $font-size) {
+  height: $height; 
+  width: $width; 
+  text-align: center; 
+  line-height: $line-height;
+  font-size: $font-size;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+}
+
+@mixin icon-button-style($bg-color, $icon-color) {
+  background-color: $bg-color;
+  color: $icon-color;
+}
+
+.icon-button-dark {
+  @include icon-button-style(black, white);
+  
+  &:hover {
+    background-color: #212121
+  }
+}
+
+.icon-button-light {
+  @include icon-button-style(white, #212121);
+
+  &:hover {
+    color: $primary-color
+  }
 }
 
 .fa-envelope {
-  padding:16px 14px;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition: .5s;
-  background-color: $white;
-}
-
-.fa-envelope:hover {
-  background-color: $primary-color;
+  @include icon-button(44px, 44px, 40px, 1em)
 }
 
 .fa-twitter {
-  padding: 16px 15px;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition: .5s;
-  background-color: $white;
-}
-
-.fa-twitter:hover {
-  background-color: #00aced;
+  @include icon-button(44px, 44px, 40px, 1.2em)
 }
 
 .fa-facebook {
-  padding:16px 19px;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition: .5s;
-  background-color: $white;
-}
-
-.fa-facebook:hover {
-  background-color: #3d5b99;
+  @include icon-button(44px, 44px, 40px, 1.1em)
 }
 
 .share-btn {
