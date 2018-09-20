@@ -5880,48 +5880,8 @@ a.disabled {
 .action-button:active {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12), 0 8px 8px 0 rgba(0, 0, 0, 0.24); }
 
-.social-icon {
-  color: #212121; }
-
-.social-icons li {
-  vertical-align: top;
+.inline-list li {
   display: inline; }
-
-.icon-button-dark {
-  background-color: black;
-  color: white; }
-  .icon-button-dark:hover {
-    background-color: #212121; }
-
-.icon-button-light {
-  background-color: white;
-  color: #212121; }
-  .icon-button-light:hover {
-    color: #e62027; }
-
-.fa-envelope {
-  height: 44px;
-  width: 44px;
-  text-align: center;
-  line-height: 40px;
-  font-size: 1em;
-  transition: .5s; }
-
-.fa-twitter {
-  height: 44px;
-  width: 44px;
-  text-align: center;
-  line-height: 40px;
-  font-size: 1.2em;
-  transition: .5s; }
-
-.fa-facebook {
-  height: 44px;
-  width: 44px;
-  text-align: center;
-  line-height: 40px;
-  font-size: 1.1em;
-  transition: .5s; }
 
 .share-btn {
   position: relative;
@@ -5967,14 +5927,22 @@ a.disabled {
     top: 1px;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.25); }
 
-.facebook {
-  background-color: #4A66B7; }
+.icon-button {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 13px; }
 
-.twitter {
-  background-color: #1B95E0; }
+.icon-button:hover svg path {
+  fill: #e62027; }
 
-.google-plus {
-  background-color: #fefefe; }
+.button-dark {
+  background-color: black; }
+
+.button-light {
+  background-color: white; }
 
 /*
 

@@ -48,64 +48,9 @@ a.disabled {
 
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
-.social-icon {
-  color: #212121;
-}
 
-.social-icons li {
-  vertical-align: top;
+.inline-list li {
   display: inline;
-}
-
-// .social-icons a {
-//   color: #212121;
-//   text-decoration: none;
-// }
-
-@mixin icon-button($height, $width,  $line-height, $font-size) {
-  height: $height; 
-  width: $width; 
-  text-align: center; 
-  line-height: $line-height;
-  font-size: $font-size;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition: .5s;
-}
-
-@mixin icon-button-style($bg-color, $icon-color) {
-  background-color: $bg-color;
-  color: $icon-color;
-}
-
-.icon-button-dark {
-  @include icon-button-style(black, white);
-  
-  &:hover {
-    background-color: #212121
-  }
-}
-
-.icon-button-light {
-  @include icon-button-style(white, #212121);
-
-  &:hover {
-    color: $primary-color
-  }
-}
-
-.fa-envelope {
-  @include icon-button(44px, 44px, 40px, 1em)
-}
-
-.fa-twitter {
-  @include icon-button(44px, 44px, 40px, 1.2em)
-}
-
-.fa-facebook {
-  @include icon-button(44px, 44px, 40px, 1.1em)
 }
 
 .share-btn {
@@ -162,14 +107,25 @@ a.disabled {
   }
 }
 
-.facebook {
-  background-color: #4A66B7;
+.icon-button {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 13px
 }
 
-.twitter {
-  background-color: #1B95E0;
+.icon-button:hover svg path {
+  fill: $primary-color
 }
 
-.google-plus {
-  background-color: #fefefe;
+.button-dark {
+  background-color: black;
 }
+
+.button-light {
+  background-color: white;
+}
+
+
