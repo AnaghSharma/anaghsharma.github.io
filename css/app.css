@@ -5657,6 +5657,23 @@ table.hover tbody tr:nth-of-type(even):hover {
   background: url("/assets/images/projects/identity/hero.jpg") no-repeat center center;
   background-size: cover; }
 
+.carol-thumbnail {
+  background: url("/assets/images/projects/carol/thumbnail.jpg") no-repeat center center;
+  background-size: cover; }
+  .carol-thumbnail:before {
+    content: url("/assets/images/projects/carol/thumbnail-hover.jpg") no-repeat center center;
+    height: 0;
+    width: 0;
+    visibility: hidden; }
+  .carol-thumbnail:hover {
+    background: url("/assets/images/projects/carol/thumbnail-hover.jpg") no-repeat center center;
+    background-size: cover;
+    transition: 0.3s; }
+
+.carol-hero {
+  background: url("/assets/images/projects/carol/hero.jpg") no-repeat center center;
+  background-size: cover; }
+
 .behance-thumbnail {
   background: url("/assets/images/projects/behance/thumbnail.jpg") no-repeat center center;
   background-size: cover; }
