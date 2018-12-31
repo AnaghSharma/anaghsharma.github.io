@@ -5708,19 +5708,6 @@ table.hover tbody tr:nth-of-type(even):hover {
   background: url("/assets/images/projects/xbox/hero.jpg") no-repeat center center;
   background-size: cover; }
 
-.buildmlearn-thumbnail {
-  background: url("/assets/images/projects/buildmlearn/thumbnail.jpg") no-repeat center center;
-  background-size: cover; }
-  .buildmlearn-thumbnail:before {
-    content: url("/assets/images/projects/buildmlearn/thumbnail-hover.jpg") no-repeat center center;
-    height: 0;
-    width: 0;
-    visibility: hidden; }
-  .buildmlearn-thumbnail:hover {
-    background: url("/assets/images/projects/buildmlearn/thumbnail-hover.jpg") no-repeat center center;
-    background-size: cover;
-    transition: 0.3s; }
-
 .uber-thumbnail {
   background: url("/assets/images/projects/uber/thumbnail.jpg") no-repeat center center;
   background-size: cover; }
