@@ -29,6 +29,7 @@
     "gulp-update": "0.0.2",
     "hoek": "^5.0.4",
     "lodash": "^4.17.11",
+    "minimatch": "^3.0.4",
     "natives": "^1.1.6",
     "npm": "^6.5.0"
   }
