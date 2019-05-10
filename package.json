@@ -4,7 +4,6 @@
   "description": "Basic template for a new Foundation for Sites project.",
   "main": "gulpfile.js",
   "devDependencies": {
-    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-load-plugins": "^1.5.0",
     "gulp-sass": "^4.0.2"
@@ -25,6 +24,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-update": "0.0.2",
     "hoek": "^6.1.3",
