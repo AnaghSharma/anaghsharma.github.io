@@ -8,7 +8,6 @@ author: Anagh Sharma
 read-time: 6m 45s
 permalink: '/blog/the-state-of-stateful-ui/'
 comments: true
-published: false
 ---
 
 ###### **OVERVIEW**
