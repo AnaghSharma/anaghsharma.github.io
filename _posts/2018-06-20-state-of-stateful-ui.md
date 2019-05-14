@@ -8,6 +8,7 @@ author: Anagh Sharma
 read-time: 6m 45s
 permalink: '/blog/the-state-of-stateful-ui/'
 comments: true
+published: false
 ---
 
 ###### **OVERVIEW**
@@ -36,7 +37,7 @@ At this stage, I started looking for all the possible solutions and checked how 
 I had studied about State Machines and Finite State Automata in college but never thought of implementing them. So went through the theory again and looked out for a few examples in C#. There are a lot of good libraries out there but I could not figure out how to use them in association with views of Apple dev environment. After going through a lot of articles I outlined a state machine which could work for my case.
 
 <br>
-![a simple state machine]({{ site.url }}/assets/images/posts/sosui-1.jpg)
+![a simple state machine]({{ site.url }}/assets/images/posts/sosui-1.jpg){: .slb }
 
 <br>
 [The app](https://github.com/AnaghSharma/Carol){:target="_blank"}{:.active} for which I was trying to implement all this is a menu bar app for macOS which identifies the song currently playing and fetches its lyrics. The moment you click on the menu bar icon, a popover opens and the first state is the idle state which swiftly transitions to loading state. Depending on the current player (iTunes & Spotify) state, app hits the lyrics API if a song is playing. If nothing is playing, the empty state is loaded. If the API returns success, the content state is loaded else the error state is loaded.
@@ -84,7 +85,7 @@ public class LoadingState : StatefulViewController
 On entering this state, a view is loaded from the file <strong>LoadingView.xib</strong> and then it is added to the superview associated with the only ViewController that we have in the app. I have added separate .xib files for each state to keep them organised. Having multiple views in a single .xib file might have made the task of getting a particular view complicated.
 
 <br>
-![a way to add views]({{ site.url }}/assets/images/posts/sosui-2.jpg)
+![a way to add views]({{ site.url }}/assets/images/posts/sosui-2.jpg){: .slb }
 
 <br>
 For point <strong>3</strong>, I wrote another class - `ViewStateMachine`. This is the actual state machine implementation. It has methods which can be called from outside to load the required view. Outside world does not know anything about the states or the transitions apart from these methods.
@@ -195,7 +196,7 @@ stateMachine.ShowError();
 Since I had a hard time implementing all this, I was sceptical about its scalability. I also thought if I was doing something of an overkill here. But it all turned out to be fine. I was able to add another state - **Empty** and load a corresponding UI view whenever that state is entered.
 
 <br>
-![different views added]({{ site.url }}/assets/images/posts/sosui-3.jpg)
+![different views added]({{ site.url }}/assets/images/posts/sosui-3.jpg){: .slb }
 
 <br>
 The way I approached UI design for this app was not entirely mistaken. Initially, I had only thought of an additional error state which could have been handled by a couple of if-else conditional statements. What I learned from this project is a way to think of UI design as various states of a state machine. From now on, I instinctively consider a UI content screen as having a minimum of 4 states - Empty, Loading, Content and Error.

@@ -12,6 +12,7 @@
     <meta name="description" content="{{ page.description }}" />
     <meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}" />
     <link rel="stylesheet" href="{{ site.url }}/css/app.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/simplebox.min.css">
     <link rel="shortcut icon" href="{{ site.url }}/assets/favicon.ico">
     
     <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
@@ -58,6 +59,8 @@
     <script src="{{ site.url }}/bower_components/what-input/what-input.js"></script>
     <script src="{{ site.url }}/bower_components/foundation-sites/dist/foundation.js"></script>
     <script src="{{ site.url }}/js/app.js"></script>
+    <!-- <script src="{{ site.url }}/bower_components/jquery/dist/jquery.js"></script> -->
+    <script src="{{ site.url }}/js/simplebox.min.js"></script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -67,6 +70,17 @@
 
       ga('create', 'UA-76127556-2', 'auto');
       ga('send', 'pageview');
+    </script>
+
+    <script>
+      $(function () 
+      {
+        $(".slb").simplebox(
+          {
+            darkMode : true
+          }
+        );
+      });
     </script>
 
   </body>

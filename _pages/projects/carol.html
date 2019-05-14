@@ -44,9 +44,9 @@ keywords: music, lyrics, app, macOS, spotify, itunes
                 <p class="text-justify font-dark lh-copy mt4">Product Designer, Developer and Illustrator</p>
                 <h5 class="font-dark font-secondary-bold font-content mt5">Problem</h5>
                 <p class="text-justify font-dark lh-copy mt4">I am a huge music buff and often find myself heading to <a href="https://www.musixmatch.com" target="_blank" class="font-primary-color">Musixmatch</a> and <a href="https://www.genius.com" target="_blank" class="font-primary-color">Genius</a> for my lyrics appetite. While working, I don’t want to open a new tab in my browser, head to Musixmatch or Genius if I want to look up for lyrics of a track every time. It’s a tedious effort which I always try to avoid. If you want to have a quick look of the lyrics without interrupting your flow, no existing product helps you with that. iTunes has the option to show lyrics but then again you will have to not only open the app but also click twice further to view the lyrics - something which you would not like to do every time. Earlier, Spotify also used to have the same feature to show lyrics as the track progressed. Musixmatch also released a newly fledged desktop app for lyrics. I tried it to find out that it is slow and only works as a window app. So for most of the options present, typical flow looks something like below. Imagine repeating this every time you want to view the lyrics.</p>
-                <img src="/assets/images/projects/carol/cs-first.jpg" alt="Current flow to get lyrics"/>
+                <img src="/assets/images/projects/carol/cs-first.jpg" class="slb" alt="Current flow to get lyrics"/>
                 <p class="text-justify font-dark lh-copy mt4">I looked for alternatives only to find that there were none that matched my preferences. Most of them were having the interface from pre-macOS Yosemite era. It was then I decided to build one. The proposed solution -</p>
-                <img src="/assets/images/projects/carol/cs-second.jpg" alt="Ideas flow to get lyrics"/>
+                <img src="/assets/images/projects/carol/cs-second.jpg" class="slb" alt="Ideas flow to get lyrics"/>
                 <p class="text-justify font-dark lh-copy mt4">The above proposal saves the hassle of opening an app from Desktop and gives the ability to view lyrics even if you are in the full-screen mode. Also, a nice simple keyboard shortcut can launch a menu bar app which means viewing lyrics is just one effort away.</p>
                 <h5 class="font-dark font-secondary-bold font-content mt5">Research</h5>
                 <p class="text-justify font-dark lh-copy mt4">The vision was to have a way to get lyrics of a song without interrupting your workflow. I started by exploring the competitive products to gather information about what they are offering and what not. The number of such products was less than I expected so I knew I could not rely heavily on this process. As mentioned earlier, most of them were not updated for years. The one from Musixmatch had no menu bar support which I assumed is crucial for having an uninterrupted experience.<br><br>Apart from this, I asked some people a couple of questions -
@@ -61,7 +61,7 @@ keywords: music, lyrics, app, macOS, spotify, itunes
                 </p>
                 <h5 class="font-dark font-secondary-bold font-content mt5">Wireframes</h5>
                 <h6 class="font-dark font-medium mt5">Iteration 1</h6>
-                <img class="mt3" src="/assets/images/projects/carol/cs-third.jpg" alt="Wireframe 1"/>
+                <img src="/assets/images/projects/carol/cs-third.jpg" class="slb mt3" alt="Wireframe 1"/>
                 <p class="text-justify font-dark lh-copy mt4">Did not work because - 
                   <ol class="font-dark text-justify lh-copy mb4">
                     <li>It wasn’t technically possible and only a line could be read properly at a given time.</li>
@@ -69,7 +69,7 @@ keywords: music, lyrics, app, macOS, spotify, itunes
                   </ol>
                 </p>
                 <h6 class="font-dark font-medium mt5">Iteration 2</h6>
-                <img class="mt3" src="/assets/images/projects/carol/cs-fourth.jpg" alt="Wireframe 2"/>
+                <img src="/assets/images/projects/carol/cs-fourth.jpg" class="slb mt3" alt="Wireframe 2"/>
                 <p class="text-justify font-dark lh-copy mt4">This iteration actually went through development. It had a couple of problems - 
                   <ol class="font-dark text-justify lh-copy mb4">
                     <li>Legibility issue.</li>
@@ -77,7 +77,7 @@ keywords: music, lyrics, app, macOS, spotify, itunes
                   </ol>
                 </p>
                 <h6 class="font-dark font-medium mt5">Iteration 3</h6>
-                <img class="mt3" src="/assets/images/projects/carol/cs-fifth.jpg" alt="Wireframe 3"/>
+                <img src="/assets/images/projects/carol/cs-fifth.jpg" class="slb mt3" alt="Wireframe 3"/>
                 <p class="text-justify font-dark lh-copy mt4">This is the final iteration -
                   <ol class="font-dark text-justify lh-copy mb4">
                     <li>Better contrast irrespective of the background album artwork as the text container is dark.</li>
@@ -86,16 +86,16 @@ keywords: music, lyrics, app, macOS, spotify, itunes
                   </ol>
                 </p>
                 <h5 class="font-dark font-secondary-bold font-content mt5">Visual Design</h5>
-                <img class="mt3" src="/assets/images/projects/carol/cs-sixth.jpg" alt="Various screens"/>
+                <img src="/assets/images/projects/carol/cs-sixth.jpg" class="slb mt3" alt="Various screens"/>
                 <p class="text-justify font-dark lh-copy mt4">Initially, the major challenge in visual design was to make sure the text is legible irrespective of its size and the background. After it was sorted I faced another challenge of having a consistent style of illustrations. These illustrations were to be used for various UI states. I have written an entire article for that - <a href="{{ site.url }}/blog/the-state-of-stateful-ui/" target="_blank" class="font-primary-color">The State of Stateful UI</a>. Here is the state transition flow - </p>
-                <img class="mt3 mb2" src="/assets/images/posts/sosui-1.jpg" alt="State Transition Flow"/>
+                <img src="/assets/images/posts/sosui-1.jpg" class="slb mt3 mb2" alt="State Transition Flow"/>
                 <p class="text-justify font-dark lh-copy mt4">Different views with consistent style of illustrations -</p>
-                <img class="mb2" src="/assets/images/projects/carol/cs-seventh.jpg" alt="Different views"/>
+                <img src="/assets/images/projects/carol/cs-seventh.jpg" class="slb mb2" alt="Different views"/>
                 <p class="text-justify font-dark lh-copy mt4">I also added a neat progress bar at the bottom to track how much lyrics you have covered. It works in sync with the scrollbar -</p>
-                <img class="mt3" src="/assets/images/projects/carol/cs-eighth.gif" alt="Progress Bar"/>
+                <img src="/assets/images/projects/carol/cs-eighth.gif" class="slb mt3" alt="Progress Bar"/>
                 <h6 class="font-dark font-medium mt5">Icon</h6>
                 <p class="text-justify font-dark lh-copy mt4">The idea was to design an imaginary creature which sends you the lyrics of a song magically (hence, the wings). I also tried to put some level of depth and details which can also be seen in other macOS apps.</p>
-                <img class="mb2" src="/assets/images/projects/carol/cs-ninth.jpg" alt="App Icon"/>
+                <img src="/assets/images/projects/carol/cs-ninth.jpg" class="slb mb2" alt="App Icon"/>
                 <h5 class="font-dark font-secondary-bold font-content mt5">Learnings</h5>
                 <p class="text-justify font-dark lh-copy mt4">The first version I did, had legibility issue that I got to recognise only after release. Since the visual design was derived from the album art of the track, sometimes its colour would interfere with the text colour. Though I put a subtle gradient over the artwork which worked most of the time, it was not fail safe. For a lyrics app, this was a blunder as there was no option to hide the artwork. I realised these mistakes and rectified them in the next release. <br><br>I started with the development with the free tier of Musixmatch API as they were not responding to my query of accessing full API thinking that by the time I am done with development I would have access to full API. They replied after constant efforts from my side only to tell me that access to full API will cost at least $1000 per month. Currently, the app shows only 30% of the lyrics. For the workaround and to have an uninterrupted experience I provided an option to open the lyrics in the browser so that one can view the rest of the lyrics. I hope to change it soon as soon as I am able to get full API access.</p>
                 <h5 class="font-dark font-content font-secondary text-center mt5 mb6">That's all folks</h5>                   
