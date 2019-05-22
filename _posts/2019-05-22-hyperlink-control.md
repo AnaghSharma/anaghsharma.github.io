@@ -21,7 +21,7 @@ While developing [Carol](https://github.com/AnaghSharma/Carol){:target="_blank"}
 
 <br>
 ###### **IMPLEMENTING THE STATE MACHINE**
-Building a hyperlink text control for your macOS app is not that complicated. We will go step by step to get it done - 
+Building a hyperlink text control for your macOS app in Xamarin is not that complicated. We will go step by step to get it done - 
 1. {: .lh-copy }Add a new class to your project and name it accordingly. For the article purpose, we will be using the name - ```HyperlinkTextField```.
 2. {: .lh-copy }Inherit from ```NSTextField``` and put a ```using AppKit``` directive on top.
 3. {: .lh-copy }Since we will be using this control through Xcode, we need to make sure that our class is visible there at the design time. To do so, use the following attributes - 
