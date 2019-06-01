@@ -202,17 +202,6 @@
   margin-right: 1%;
 }
 
-.room-text {
-  height: 22.2rem;
-
-  @include breakpoint (small only){
-    height: 16rem;
-  }
-  @include breakpoint (medium only){
-    height: 12.4rem;
-  }
-}
-
 .garage-post-header {
   height: 2rem;
 }
