@@ -23,7 +23,7 @@ Let's go through some of the jargons that we will be using -
 
 ![Hue Wheel]({{ site.url }}/assets/images/posts/colour-models/cm-1.jpg){: .slb }
 
-**BRIGHTNESS** - Umm, it is the brightness of a colour. Usually goes from 0 to 100, with 0 being the brightest variant of the colour and 100 being the darkest (read - the black colour).
+**BRIGHTNESS** - Umm, it is the brightness of a colour. Usually goes from 0 to 100, with 100 being the brightest variant of the colour and 0 being the darkest (read — the black colour).
 
 **SATURATION** - The richness of a colour. Usually goes from 0 to 100, with 0 being the palest variant of the colour (read - a grey colour) and 100 being the richest variant of the colour.
 
