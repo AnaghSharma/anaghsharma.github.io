@@ -11,7 +11,7 @@ comments: true
 ---
 
 ###### **OVERVIEW**
-You must be wondering why the title of this post is like this. A couple of months ago I started working on [this macOS app](https://github.com/AnaghSharma/Carol){:target="_blank"}{:.active}. Everything was going fine initially as I had only one UI state which was the one showing content to the user. As I had no prior experience designing and building apps for macOS, I was unaware of any architecture that could ease up the process of showing different UI states. When the time came to incorporate the other UI states namely empty and the error state, I could not do so as I had only one View and an associated ViewController. I did not want to add a separate ViewController for every UI state. What I wanted was a way to load a View into existing ViewController depending on the current UI state.
+You must be wondering why the title of this post is like this. A couple of months ago I started working on [this macOS app](https://github.com/AnaghSharma/Carol){:target="_blank" aria-label="View Carol on GitHub"}{:.active .font-medium}. Everything was going fine initially as I had only one UI state which was the one showing content to the user. As I had no prior experience designing and building apps for macOS, I was unaware of any architecture that could ease up the process of showing different UI states. When the time came to incorporate the other UI states namely empty and the error state, I could not do so as I had only one View and an associated ViewController. I did not want to add a separate ViewController for every UI state. What I wanted was a way to load a View into existing ViewController depending on the current UI state.
 
 <br>
 It could have been done with the help of dreary if/else conditional statements ladder and a couple of boolean variables. So if the song does not have any lyrics (i.e. it is instrumental), the code must hide everything else (the UI elements for content view and error view) and show only the empty state UI elements.
@@ -30,7 +30,7 @@ Now you can imagine how many if-else conditional statements will be used in this
 
 <br>
 ###### **THE NEED FOR A STATE MACHINE**
-At this stage, I started looking for all the possible solutions and checked how other devs handle various UI states. A simple (not really 😉) google search suggested that state machines can be used for handling UI states. I found out [this repo](https://github.com/aschuch/StatefulViewController){:target="_blank"}{:.active} which utilises a State Machine to handle the UI states. This library helps you to load the view corresponding to the state e.g. loading, content, etc. It is written in Swift for iOS so I could not use it.
+At this stage, I started looking for all the possible solutions and checked how other devs handle various UI states. A simple (not really 😉) google search suggested that state machines can be used for handling UI states. I found out [this repo](https://github.com/aschuch/StatefulViewController){:target="_blank" aria-label="View StatefulViewController on GitHub"}{:.active .font-medium} which utilises a State Machine to handle the UI states. This library helps you to load the view corresponding to the state e.g. loading, content, etc. It is written in Swift for iOS so I could not use it.
 
 <br>
 I had studied about State Machines and Finite State Automata in college but never thought of implementing them. So went through the theory again and looked out for a few examples in C#. There are a lot of good libraries out there but I could not figure out how to use them in association with views of Apple dev environment. After going through a lot of articles I outlined a state machine which could work for my case.
@@ -39,7 +39,7 @@ I had studied about State Machines and Finite State Automata in college but neve
 ![a simple state machine]({{ site.url }}/assets/images/posts/sosui-1.jpg){: .slb }
 
 <br>
-[The app](https://github.com/AnaghSharma/Carol){:target="_blank"}{:.active} for which I was trying to implement all this is a menu bar app for macOS which identifies the song currently playing and fetches its lyrics. The moment you click on the menu bar icon, a popover opens and the first state is the idle state which swiftly transitions to loading state. Depending on the current player (iTunes & Spotify) state, app hits the lyrics API if a song is playing. If nothing is playing, the empty state is loaded. If the API returns success, the content state is loaded else the error state is loaded.
+[The app](https://github.com/AnaghSharma/Carol){:target="_blank" aria-label="View Carol on GitHub"}{:.active .font-medium} for which I was trying to implement all this is a menu bar app for macOS which identifies the song currently playing and fetches its lyrics. The moment you click on the menu bar icon, a popover opens and the first state is the idle state which swiftly transitions to loading state. Depending on the current player (iTunes & Spotify) state, app hits the lyrics API if a song is playing. If nothing is playing, the empty state is loaded. If the API returns success, the content state is loaded else the error state is loaded.
 
 <br>
 ###### **IMPLEMENTING THE STATE MACHINE**

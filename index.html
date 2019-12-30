@@ -15,7 +15,7 @@ keywords: design, portfolio, development, designer
 <div class="row mt5">
   <div class="large-6 medium-10 small-12 columns mt4">
     <p class="mb5">Hello,<br><br>I am <b>Anagh Sharma</b> - a Digital Product Designer from New Delhi, India.&nbsp;I design and build digital products people love to use.</p>
-    <a href="{{ site.url }}/about" class="primary quiet font-medium font-primary-color">KNOW MORE ABOUT ME</a>
+    <a href="{{ site.url }}/about" class="primary quiet font-medium font-primary-color" aria-label="Know more about Anagh">KNOW MORE ABOUT ME</a>
   </div>
 </div>
 <section id="projects" class="mt6">
@@ -24,20 +24,20 @@ keywords: design, portfolio, development, designer
         <div class="row">
           <div class="large-8 medium-8 small-12 columns left-collapse right-collapse">
             <div class="row">
-              <a href="{{ site.url }}/projects/personal-identity" class="heading">
+              <a href="{{ site.url }}/projects/personal-identity" class="heading" aria-label="Go to Personal Identity project study">
                 <div class="portfolio-project-card horizontal-rect-8 identity-thumbnail mb2">
                 </div>
               </a>
             </div>
             <div class="row">
               <div class="large-6 medium-6 small-12 columns left-collapse">
-                <a href="{{ site.url }}/projects/carol" class="heading">
+                <a href="{{ site.url }}/projects/carol" class="heading" aria-label="Go to Carol project case study">
                   <div class="portfolio-project-card square carol-thumbnail mb2">
                   </div>
                 </a>
               </div>
               <div class="large-6 medium-6 columns right-collapse">
-                <a href="{{ site.url }}/projects/xbox" class="heading">
+                <a href="{{ site.url }}/projects/xbox" class="heading" aria-label="Go to XBOX project case study">
                   <div class="portfolio-project-card square xbox-thumbnail mb2">
                   </div>
                 </a>
@@ -45,7 +45,7 @@ keywords: design, portfolio, development, designer
             </div>
           </div>
           <div class="large-4 medium-4 columns small-collapse">
-            <a href="{{ site.url }}/projects/view-for-behance" class="heading">
+            <a href="{{ site.url }}/projects/view-for-behance" class="heading" aria-label="Go to View for Behance project case study">
               <div class="portfolio-project-card vertical-rect behance-thumbnail mb2">
               </div>
             </a>
@@ -53,7 +53,7 @@ keywords: design, portfolio, development, designer
         </div>
         <div class="row">
           <div class="columns small-collapse">
-            <a href="{{ site.url }}/projects/uber" class="heading">
+            <a href="{{ site.url }}/projects/uber" class="heading" aria-label="Go to Uber project case study">
               <div class="portfolio-project-card horizontal-rect-12 uber-thumbnail mb2">
               </div>
             </a>
@@ -70,11 +70,11 @@ keywords: design, portfolio, development, designer
             <ul class="mt4 no-bullet">
               <li class="mt2 mb3">
                 <h6 class="quiet font-medium font-secondary mb0">GIZMODO</h6>
-                <a href="http://www.gizmodo.co.uk/2014/10/this-weeks-best-android-iphone-ipad-and-windows-phone-apps-7/" target="_blank" class="f6">This Week’s Best Android, iPhone, iPad and Windows Phone Apps</a>
+                <a href="http://www.gizmodo.co.uk/2014/10/this-weeks-best-android-iphone-ipad-and-windows-phone-apps-7/" target="_blank" class="f6" aria-label="See View for Behance in Gizmodo's best apps of the week">This Week’s Best Android, iPhone, iPad and Windows Phone Apps</a>
               </li>
               <li class="mt2 mb3">
                 <h6 class="quiet font-medium font-secondary mb0">WINDOWS</h6>
-                <a href="https://blogs.windows.com/devices/2014/10/19/our-5-favourite-new-windows-phone-apps-of-the-week-29/" target="_blank" class="f6">Our 5 favourite new Windows Phone Apps of the week</a>
+                <a href="https://blogs.windows.com/devices/2014/10/19/our-5-favourite-new-windows-phone-apps-of-the-week-29/" target="_blank" class="f6" aria-label="See View for Behance in Windows' Our 5 favourite new Windows Phone apps">Our 5 favourite new Windows Phone Apps of the week</a>
               </li>
               <li class="mt2 mb3">
                 <h6 class="quiet font-medium font-secondary mb0">MICROSOFT</h6>
@@ -96,16 +96,16 @@ keywords: design, portfolio, development, designer
         <hr class="font-secondary"/>
         {% for post in site.posts limit:1 %}
           <h6 class="f6 font-medium font-secondary mt4 mb1">LATEST ARTICLE / READ TIME - {{ post.read-time}}</h6>
-          <a href="{{ post.url }}" class="heading f2 font-bold lh-title">{{ post.title }}</a>
+          <a href="{{ post.url }}" class="heading f2 font-bold lh-title" aria-label="Read the blog post">{{ post.title }}</a>
         {% endfor %}
         <div class="mt5 mb3">
           <h6 class="f6 font-medium font-secondary" style="display: inline;">OTHER ARTICLES</h6>
-          <a href="{{ site.url }}/blog" class="font-primary-color f6 font-medium ml2" style="vertical-align: center;">SEE ALL</a>
+          <a href="{{ site.url }}/blog" class="font-primary-color f6 font-medium ml2" style="vertical-align: center;" aria-label="See all blog posts">SEE ALL</a>
         </div>
         <div class="row">
           {% for post in site.posts offset:1 limit:3 %}
           <div class="large-4 medium-4 columns mt1">
-            <a href="{{ post.url }}" class="primary no-decoration-light">  
+            <a href="{{ post.url }}" class="primary no-decoration-light" aria-label="Read the blog post">  
               <div class="blog-card pt3">
                 <h5 class="f4 mh3 font-bold lh-title">{{ post.title }}</h5>
                 <h6 class="f6 mh3 font-medium font-secondary">{{ post.date | date_to_long_string }}<br>READ TIME - {{ post.read-time }}</h6>
@@ -132,8 +132,8 @@ keywords: design, portfolio, development, designer
             <img src="/assets/images/the-room-hero.svg" alt="Hello from The Design Room"/>
           </div>
           <div class="large-6 large-offset-1 end medium-8 columns mt3">
-            <p class="text-justify pb5">The Design Room is the place where I experiment with designing things. The fun part is that when you are experimenting you do not have to put constraints on your process, the timeline and the deliverables. The objective of starting a project like this was to enhance my visual design skills. I have been receiving a lot of response on <a href="https://www.instagram.com/the.design.room/" target="_blank" class="font-primary-color">Instagram</a> lately and have been looking to improve this project since then.</p>
-            <a href="{{ site.url }}/the-design-room" class="primary quiet font-medium font-primary-color">EXPLORE THE PROJECT</a>
+            <p class="text-justify pb5">The Design Room is the place where I experiment with designing things. The fun part is that when you are experimenting you do not have to put constraints on your process, the timeline and the deliverables. The objective of starting a project like this was to enhance my visual design skills. I have been receiving a lot of response on <a href="https://www.instagram.com/the.design.room/" target="_blank" class="font-primary-color" aria-label="Check The Design Room on Instagram">Instagram</a> lately and have been looking to improve this project since then.</p>
+            <a href="{{ site.url }}/the-design-room" class="primary quiet font-medium font-primary-color" aria-label="Explore The Design Room project">EXPLORE THE PROJECT</a>
           </div>
         </div>
       </div>
@@ -152,16 +152,16 @@ keywords: design, portfolio, development, designer
     <div class="row mt5">
       <div class="large-6 medium-6 columns mb5">
         <p class="text-justify mt3 pb5">The Garage is the place where I build things. Welcome to this place if you like to build things. I have been building stuff using C#, XAML and Visual Studio. From past couple of months, I am having fun with front-end development and Swift programming language.</p>
-        <a href="{{ site.url }}/the-garage" class="primary quiet font-medium font-primary-color">EXPLORE THE PROJECT</a>
+        <a href="{{ site.url }}/the-garage" class="primary quiet font-medium font-primary-color" aria-label="Explore The Garage project">EXPLORE THE PROJECT</a>
       </div>
       <div class="large-4 medium-5 columns">
           <h6 class="mt3 f6 font-bold font-secondary">LATEST COOKIES</h6>
         <ul class="no-bullet">
             <li class="blog-list mv3 pv2 ph3">
-                <a href="{{ site.url }}/blog/creating-a-hyperlink-control-for-xamarin-mac/" class="heading font-medium f5">Creating a custom hyperlink control for Xamarin.Mac</a>
+                <a href="{{ site.url }}/blog/creating-a-hyperlink-control-for-xamarin-mac/" class="heading font-medium f5" aria-label="Read the blog post">Creating a custom hyperlink control for Xamarin.Mac</a>
               </li>
           <li class="blog-list mv3 pv2 ph3">
-            <a href="{{ site.url }}/blog/the-state-of-stateful-ui/" class="heading font-medium f5">Handling different UI states with a single ViewController</a>
+            <a href="{{ site.url }}/blog/the-state-of-stateful-ui/" class="heading font-medium f5" aria-label="Read the blog post">Handling different UI states with a single ViewController</a>
           </li>
         </ul>
       </div>

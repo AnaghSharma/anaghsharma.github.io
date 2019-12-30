@@ -11,11 +11,11 @@ comments: true
 ---
 
 ###### **OVERVIEW**
-While developing a product, there can be a requirement of using a custom control i.e. a control which is not offered as a part of the SDK. Developing such controls can be quite intimidating. I remember circa 2013 I had a really hard time developing custom controls for my Windows Phone apps. Even when I was able to do so, those controls were not reusable. It was a complex process since I did not know much about the how-to. I used to rely on dev articles and of course the good old [stackoverflow.com](https://www.stackoverflow.com){:target="_blank"}{:.active}. With this article, I tend to give back to the dev community so that it could help someone just like someone's article did back in the days.
+While developing a product, there can be a requirement of using a custom control i.e. a control which is not offered as a part of the SDK. Developing such controls can be quite intimidating. I remember circa 2013 I had a really hard time developing custom controls for my Windows Phone apps. Even when I was able to do so, those controls were not reusable. It was a complex process since I did not know much about the how-to. I used to rely on dev articles and of course the good old [stackoverflow.com](https://www.stackoverflow.com){:target="_blank" aria-label="Go to stackoverflow.com"}{:.active .font-medium}. With this article, I tend to give back to the dev community so that it could help someone just like someone's article did back in the days.
 
 <br>
 ###### **THE NEED FOR A CUSTOM CONTROL**
-While developing [Carol](https://github.com/AnaghSharma/Carol){:target="_blank"}{:.active} I had the requirement of a hyperlink text control. I wanted to use it on the About window. Could not find the same in the AppKit, so I decided to build a custom one.
+While developing [Carol](https://github.com/AnaghSharma/Carol){:target="_blank" aria-label="View Carol on GitHub"}{:.active .font-medium} I had the requirement of a hyperlink text control. I wanted to use it on the About window. Could not find the same in the AppKit, so I decided to build a custom one.
 
 ![The About window using the custom hyperlink control]({{ site.url }}/assets/images/posts/hyperlink-1.jpg){: .slb }
 
@@ -68,7 +68,7 @@ public override void AwakeFromNib()
 }
 ```
     * To give the text field an underline, we are using NSAttributedString. You may also change the color of the text.
-    * [NSTrackingArea](https://developer.apple.com/documentation/appkit/nstrackingarea){:target="_blank"}{:.active} is region of a view that generates mouse-tracking and cursor-update events when the pointer is over that region. Here we are tracking the mouse entering and exiting events so that we can update the cursor accordingly.
+    * [NSTrackingArea](https://developer.apple.com/documentation/appkit/nstrackingarea){:target="_blank" aria-label="Read more about NSTrackingArea on developer.apple.com"}{:.active .font-medium} is region of a view that generates mouse-tracking and cursor-update events when the pointer is over that region. Here we are tracking the mouse entering and exiting events so that we can update the cursor accordingly.
 
 7. {: .lh-copy }In order to change the cursor to pointing hand on hover and vice versa, we are going to override two methods which is pretty straight-forward.
 ```C#
@@ -95,7 +95,7 @@ public override void MouseDown(NSEvent theEvent)
 	NSWorkspace.SharedWorkspace.OpenUrl(new NSUrl(href));
 }
 ```
-    * [NSWorkspace](https://developer.apple.com/documentation/appkit/nsworkspace){:target="_blank"}{:.active} is a workspace that can launch other apps and perform a variety of file-handling services. There is one shared NSWorkspace object per app which has a method named OperUrl. We pass a new NSUrl object intialized by the member href.  
+    * [NSWorkspace](https://developer.apple.com/documentation/appkit/nsworkspace){:target="_blank" aria-label="Read more about NSWorkspace on developer.apple.com"}{:.active .font-medium} is a workspace that can launch other apps and perform a variety of file-handling services. There is one shared NSWorkspace object per app which has a method named OperUrl. We pass a new NSUrl object intialized by the member href.  
 
 9. {: .lh-copy }That's it. Your hyperlink control is now ready to use. To do so - 
     1. Open Main.storyboard and drag a Text Field object from Objects Library to wherever you want to put the hyperlink. Let's use it on About View Controller.
@@ -113,7 +113,7 @@ public override void MouseDown(NSEvent theEvent)
 
 <br>
 ###### **WRAPPING UP**
-This is all you need to build a custom hyperlink control for Xamarin.Mac. I have used this control in two of my projects - [Carol](https://github.com/AnaghSharma/Carol){:target="_blank"}{:.active} and [Ambar](https://github.com/AnaghSharma/Ambar){:target="_blank"}{:.active}. You can access the [source code here](https://github.com/AnaghSharma/Carol/blob/master/Carol/Controls/HyperlinkTextField.cs){:target="_blank"}{:.active}. Let me know if you need some help or think this artcle can be improved in one way or the other. 
+This is all you need to build a custom hyperlink control for Xamarin.Mac. I have used this control in two of my projects - [Carol](https://github.com/AnaghSharma/Carol){:target="_blank" aria-label="View Carol on GitHub"}{:.active .font-medium} and [Ambar](https://github.com/AnaghSharma/Ambar){:target="_blank" aria-label="View Ambar on GitHub"}{:.active .font-medium}. You can access the [source code here](https://github.com/AnaghSharma/Carol/blob/master/Carol/Controls/HyperlinkTextField.cs){:target="_blank" aria-label="Explore the source code on GitHub"}{:.active .font-medium}. Let me know if you need some help or think this artcle can be improved in one way or the other. 
 
 <br>
 <strong>// KEEP MAKING.<strong>

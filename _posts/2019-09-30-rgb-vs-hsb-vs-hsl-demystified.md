@@ -13,7 +13,7 @@ comments: true
 ### Delving into colour models and some of the types that are out there.
 
 <br>
-When I started working as a Designer, I had a vague idea about the colour models. I had studied them in college as part of the Computer Graphics subject but never thought that I would be in a situation to explore and use them. When you start your journey as a Designer, there are many articles out there to teach you about the colour theory and all, but hardly anyone would explain about colour models or the better part of them - how to use the colour models. I was familiar with RGB, HSB, CMYK and others, or so I thought, but when I began working on the design system for [Innovaccer](https://www.innovaccer.com){:target="_blank"}{:.active}, I realised that I do not have enough knowledge of the colour models to generate a consistent and accessible colour palette. If you have come across these colour models and are kinda curious about them, read on.
+When I started working as a Designer, I had a vague idea about the colour models. I had studied them in college as part of the Computer Graphics subject but never thought that I would be in a situation to explore and use them. When you start your journey as a Designer, there are many articles out there to teach you about the colour theory and all, but hardly anyone would explain about colour models or the better part of them - how to use the colour models. I was familiar with RGB, HSB, CMYK and others, or so I thought, but when I began working on the design system for [Innovaccer](https://www.innovaccer.com){:target="_blank" aria-label="Go to innovaccer.com"}{:.active .font-medium}, I realised that I do not have enough knowledge of the colour models to generate a consistent and accessible colour palette. If you have come across these colour models and are kinda curious about them, read on.
 
 <br>
 ###### **ONE WORD AT A TIME**
@@ -41,7 +41,7 @@ Let's go through the 3 colour models which are used for various display devices 
 ###### **THE RGB MODEL**
 As I mentioned earlier, in RGB (0–255, 0–255 ,0–255) system, a colour can be represented by how much Red, Green and Blue it is. This essentially means a colour can be represented by the combination of these three primary colours. Each of these Red, Green and Blue can range from 0–255 to represent a colour.
 
-Graphically, the RGB colour model is represented by a cube. You can find more information about it [here](https://www.geeksforgeeks.org/computer-graphics-the-rgb-color-model/){:target="_blank"}{:.active}.
+Graphically, the RGB colour model is represented by a cube. You can find more information about it [here](https://www.geeksforgeeks.org/computer-graphics-the-rgb-color-model/){:target="_blank" arial-label="Go to geeksforgeeks.org to read more about RGB colour model"}{:.active .font-medium}.
 
 Take an example of the following colour -
 
@@ -82,7 +82,7 @@ HSB model is an underused model basis on what I have seen. If you have never use
 
 <br>
 ###### **THE HSL MODEL**
-This one is somewhat complex and often confused with the HSB model. L in HSL stands for Lightness while H and S are the same. Graphically, the HSB model is represented by a cone while the HSL model is represented by a double cone (bi-cone). Go play with this [3D model](https://sketchfab.com/3d-models/hsl-color-space-bicone-4b80b8cef67a44998b8fec292f7865d1){:target="_blank"}{:.active} to get to know how much similar and different it is to the HSB model.
+This one is somewhat complex and often confused with the HSB model. L in HSL stands for Lightness while H and S are the same. Graphically, the HSB model is represented by a cone while the HSL model is represented by a double cone (bi-cone). Go play with this [3D model](https://sketchfab.com/3d-models/hsl-color-space-bicone-4b80b8cef67a44998b8fec292f7865d1){:target="_blank" aria-label="Go to sketchfab.com to explore the 3D model for HSL"}{:.active .font-medium} to get to know how much similar and different it is to the HSB model.
 
 ![HSL Bi-cone]({{ site.url }}/assets/images/posts/colour-models/cm-6.jpg){: .slb }
 
@@ -104,7 +104,7 @@ Take the example of Affinity Designer, which provides HSL colour wheel unlike Sk
 <iframe src="https://player.vimeo.com/video/363287332" width="100%" height="508" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <br>
-The wheel represents the Hue since it goes from 0º to 360º. The Saturation and Lightness can be altered from the triangle portion. These two colour pickers are examples of how the 3-dimensional cone space has been transformed and represented into a 2-dimensional plane. If you are looking at this kind of colour picker for the first time, it can be overwhelming and confusing. I would like you to start playing with it so that you are able to understand how changing Hue, Saturation and Lightness brings variations in the colour. I'll also be sharing how I used HSL colour model to generate a colour palette for the design system at [Innovaccer](https://www.innovaccer.com){:target="_blank"}{:.active}.
+The wheel represents the Hue since it goes from 0º to 360º. The Saturation and Lightness can be altered from the triangle portion. These two colour pickers are examples of how the 3-dimensional cone space has been transformed and represented into a 2-dimensional plane. If you are looking at this kind of colour picker for the first time, it can be overwhelming and confusing. I would like you to start playing with it so that you are able to understand how changing Hue, Saturation and Lightness brings variations in the colour. I'll also be sharing how I used HSL colour model to generate a colour palette for the design system at [Innovaccer](https://www.innovaccer.com){:target="_blank" aria-label="Go to innovaccer.com"}{:.active .font-medium}.
 
 <br>
 ###### **COLOURING UP**

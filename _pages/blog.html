@@ -11,7 +11,7 @@ keywords: blog, writing, design, experience
     <div class="large-9 middle-6 small-12 columns divider pr3">
             {% for post in site.posts limit:1 %}
                 <h6 class="f6 font-medium font-secondary mt4 mb1">LATEST ARTICLE / READ TIME - {{ post.read-time}}</h6>
-                <a href="{{ post.url }}" class="heading f2 font-bold lh-title">{{ post.title }}</a>
+                <a href="{{ post.url }}" class="heading f2 font-bold lh-title" aria-label="Read the blog post">{{ post.title }}</a>
             {% endfor %}
         <div class="mt5">
           <h6 class="f6 font-medium font-secondary">ALL ARTICLES</h6>
@@ -20,7 +20,7 @@ keywords: blog, writing, design, experience
             {% for post in site.posts %}
             <ul class="no-bullet">
                 <li class="blog-list mv3 pt3 pb1 ph3">
-                    <a href="{{ post.url }}" class="heading font-bold f4 lh-title">{{ post.title }}</a>
+                    <a href="{{ post.url }}" class="heading font-bold f4 lh-title" aria-label="Read the blog post">{{ post.title }}</a>
                     <p class="font-secondary f6 mt1">{{ post.date | date_to_long_string }}&emsp;/&emsp;Read Time - {{ post.read-time }}</p>
                 </li>
             </ul>
