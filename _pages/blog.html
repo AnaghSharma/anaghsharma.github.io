@@ -20,7 +20,7 @@ keywords: blog, writing, design, experience
             {% for post in site.posts %}
             <ul class="no-bullet">
                 <li class="blog-list mv3 pt3 pb1 ph3">
-                    <a href="{{ post.url }}" class="heading font-content font-secondary-bold f4 lh-title">{{ post.title }}</a>
+                    <a href="{{ post.url }}" class="heading font-bold f4 lh-title">{{ post.title }}</a>
                     <p class="font-secondary f6 mt1">{{ post.date | date_to_long_string }}&emsp;/&emsp;Read Time - {{ post.read-time }}</p>
                 </li>
             </ul>

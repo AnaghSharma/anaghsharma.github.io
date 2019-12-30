@@ -5905,7 +5905,6 @@ table.hover tbody tr:nth-of-type(even):hover {
   height: 10rem;
   border-radius: 2px; }
   .blog-card h5 {
-    font-family: "Playfair Display", serif;
     height: 5rem; }
 
 .full-width-background-dark {
@@ -6405,7 +6404,7 @@ a.disabled {
   font-size: 90%; }
 
 .font-secondary {
-  opacity: 0.6; }
+  opacity: 0.7; }
 
 .font-content {
   font-family: "Playfair Display", serif; }
