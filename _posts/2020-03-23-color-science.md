@@ -10,7 +10,7 @@ permalink: '/blog/color-science-for-digital-design/'
 comments: true
 ---
 
-### Understanding color profiles and how they effect your design document.
+### Understanding color profiles and how they affect your design document.
 
 <br>
 Assessing the difference in the colors you see while designing and what you get after exporting assets is crucial. Professional design tools give you the authority to select color profiles. Have you ever heard about sRGB, Display P3, Adobe RGB or L\*a\*b\*?   In the [last article]({{ site.url }}/blog/rgb-vs-hsb-vs-hsl-demystified/){:target="_blank" aria-label="Go to the article"}{:.active .font-medium}, I tried to describe the different color models in brief. In this article, we will head towards unveiling the mysteries of color profiles.
