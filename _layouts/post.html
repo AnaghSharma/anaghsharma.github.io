@@ -10,11 +10,6 @@ layout: default
     <div class="row article-background mv6 pv6">                        
         <div class="large-7 medium-7 large-offset-1 medium-offset-1 columns">
             <span class="article-container text-justify font-dark">{{ content }}</span>
-            <h6 class="font-dark font-bold font-secondary quiet mt5">SHARE THIS ARTICLE</h6>
-            <div class="share-box mt3 pv4">
-                <iframe src="https://www.facebook.com/plugins/share_button.php?href={{ page.url | prepend: site.url | cgi_escape }}&layout=button_count&size=large&width=84&height=28" width="84" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                <a href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url | cgi_escape }}&text={{ page.title }}&via={{ site.twitter | slice: -11, 11 }}" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>  
             {% include disqus.html %}
         </div>
         <div class="large-3 medium-3 columns">
