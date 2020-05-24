@@ -6092,12 +6092,20 @@ html.disable-scroll {
       color: #ffffff;
       text-decoration: none; }
 
+.unroll-store-thumbnail {
+  background: url("/assets/images/store/unroll.jpg") no-repeat center center;
+  background-size: cover; }
+
 .behance-store-thumbnail {
   background: url("/assets/images/store/view-for-behance.jpg") no-repeat center center;
   background-size: cover; }
 
 .carol-store-thumbnail {
   background: url("/assets/images/store/carol.jpg") no-repeat center center;
+  background-size: cover; }
+
+.snkrhd-store-thumbnail {
+  background: url("/assets/images/store/snkrhd.jpg") no-repeat center center;
   background-size: cover; }
 
 .ambar-store-thumbnail {

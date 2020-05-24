@@ -496,6 +496,14 @@ html.disable-scroll {
   }
 }
 
+.unroll-store-thumbnail {
+  background: url("/assets/images/store/unroll.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .behance-store-thumbnail {
   background: url("/assets/images/store/view-for-behance.jpg") no-repeat center center; 
   -webkit-background-size: cover;
@@ -506,6 +514,14 @@ html.disable-scroll {
 
 .carol-store-thumbnail {
   background: url("/assets/images/store/carol.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.snkrhd-store-thumbnail {
+  background: url("/assets/images/store/snkrhd.jpg") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
