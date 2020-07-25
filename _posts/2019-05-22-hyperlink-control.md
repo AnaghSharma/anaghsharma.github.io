@@ -29,72 +29,73 @@ Building a hyperlink text control for your macOS app in Xamarin is not that comp
     * Register("YourClassName") attribute is used to register a class to the Objective-C runtime.
     * DesignTimeVisible(true) attribute makes sure that the class is visible in Xcode at design time.
 4. {: .lh-copy }Create three private members viz. 
-~~~C#
-String href;
-NSTrackingArea hoverarea;
-NSCursor cursor;
-~~~
+    ```csharp
+    String href;
+    NSTrackingArea hoverarea;
+    NSCursor cursor;
+    ```
+
     * href will be used for the link element of the hyperlink. The rest will be used for changing cursor to pointing hand on hover.
 5. {: .lh-copy }Create a String property Href which gets and sets the value of href. We will also have to use the Export attribute here.
-```C#
-[Export("Href")]
-public String Href
-{ 
+    ```csharp
+    [Export("Href")]
+    public String Href
+    { 
         get 
         { 
             return href; 
         } 
         set => href = value;
-}
-```
-    * Export("PropertyName") attribute exports a property to Objective-C world.
+    }
+    ```
+    * {: .lh-copy }Export("PropertyName") attribute exports a property to Objective-C world.
 
 
 6. {: .lh-copy }Now we need to style the text field so that it looks like a hyperlink. To do this we override the AwakeFromNib() method as below - 
-```C#
-public override void AwakeFromNib()
-{ 
-	base.AwakeFromNib();
-	AttributedStringValue = new NSAttributedString(StringValue, new NSStringAttributes()
-	{ 
-		// You can change the color of link after uncommenting the following 
-		// ForegroundColor = NSColor.Red,
-		UnderlineStyle = NSUnderlineStyle.Single.GetHashCode()
-	}); 
-	
-	hoverarea = new NSTrackingArea(Bounds, NSTrackingAreaOptions.MouseEnteredAndExited | NSTrackingAreaOptions.ActiveAlways, this, null);
-	AddTrackingArea(hoverarea);
-	cursor = NSCursor.CurrentSystemCursor;
-}
-```
+    ```csharp
+    public override void AwakeFromNib()
+    { 
+        base.AwakeFromNib();
+        AttributedStringValue = new NSAttributedString(StringValue, new NSStringAttributes()
+        { 
+            // You can change the color of link after uncommenting the following 
+            // ForegroundColor = NSColor.Red,
+            UnderlineStyle = NSUnderlineStyle.Single.GetHashCode()
+        }); 
+        
+        hoverarea = new NSTrackingArea(Bounds, NSTrackingAreaOptions.MouseEnteredAndExited | NSTrackingAreaOptions.ActiveAlways, this, null);
+        AddTrackingArea(hoverarea);
+        cursor = NSCursor.CurrentSystemCursor;
+    }
+    ```
     * To give the text field an underline, we are using NSAttributedString. You may also change the color of the text.
     * [NSTrackingArea](https://developer.apple.com/documentation/appkit/nstrackingarea){:target="_blank" aria-label="Read more about NSTrackingArea on developer.apple.com"}{:.active .font-medium} is region of a view that generates mouse-tracking and cursor-update events when the pointer is over that region. Here we are tracking the mouse entering and exiting events so that we can update the cursor accordingly.
 
 7. {: .lh-copy }In order to change the cursor to pointing hand on hover and vice versa, we are going to override two methods which is pretty straight-forward.
-```C#
-//Method override to change cursor to pointing hand on Mouse Enter (Hover)
-public override void MouseEntered(NSEvent theEvent)
-{ 
-	base.MouseEntered(theEvent); 
-	cursor = NSCursor.PointingHandCursor; 
-	cursor.Push();
-} 
-//Method override to change cursor back to pointing arrow on Mouse Exit
-public override void MouseExited(NSEvent theEvent)
-{ 
-	base.MouseEntered(theEvent);
-	cursor.Pop();
-}
-```
+    ```csharp
+    //Method override to change cursor to pointing hand on Mouse Enter (Hover)
+    public override void MouseEntered(NSEvent theEvent)
+    { 
+        base.MouseEntered(theEvent); 
+        cursor = NSCursor.PointingHandCursor; 
+        cursor.Push();
+    } 
+    //Method override to change cursor back to pointing arrow on Mouse Exit
+    public override void MouseExited(NSEvent theEvent)
+    { 
+        base.MouseEntered(theEvent);
+        cursor.Pop();
+    }
+    ```
 
 8. {: .lh-copy }Now we only require one last method which will be used to open the URL on clicking the hyperlink control. This method is also an override.
-```C#
-//Method override to open url on click of HyperlinkTextField
-public override void MouseDown(NSEvent theEvent)
-{ 
-	NSWorkspace.SharedWorkspace.OpenUrl(new NSUrl(href));
-}
-```
+    ```csharp
+    //Method override to open url on click of HyperlinkTextField
+    public override void MouseDown(NSEvent theEvent)
+    { 
+        NSWorkspace.SharedWorkspace.OpenUrl(new NSUrl(href));
+    }
+    ```
     * [NSWorkspace](https://developer.apple.com/documentation/appkit/nsworkspace){:target="_blank" aria-label="Read more about NSWorkspace on developer.apple.com"}{:.active .font-medium} is a workspace that can launch other apps and perform a variety of file-handling services. There is one shared NSWorkspace object per app which has a method named OperUrl. We pass a new NSUrl object intialized by the member href.  
 
 9. {: .lh-copy }That's it. Your hyperlink control is now ready to use. To do so - 
@@ -102,7 +103,7 @@ public override void MouseDown(NSEvent theEvent)
     2. In the Identity inspector, set the Custom Class to HyperlinkTextField and set the Title.
     3. Set an Outlet with Type set to HyperlinkTextField. Let's name it as AboutLink.
     4. In the respective .cs file, override ViewDidLoad to set the href property of the control -
-    ```C#
+    ```csharp
     public override void ViewDidLoad() 
     {
             base.ViewDidLoad(); 

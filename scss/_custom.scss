@@ -572,3 +572,9 @@ html.disable-scroll {
 .br8 {
   border-radius: 8px;
 }
+
+pre.highlight code {
+  display: block;
+  overflow: auto;
+  border-radius: 4px;
+}
