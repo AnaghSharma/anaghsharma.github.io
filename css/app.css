@@ -1581,7 +1581,7 @@ code {
   color: #000000;
   background-color: #e6e6e6;
   border: 1px solid #cacaca;
-  padding: 0.125rem 0.25rem; }
+  padding: 0.125rem 0.3125rem; }
 
 kbd {
   padding: 0.125rem 0.25rem 0;
@@ -6142,7 +6142,9 @@ html.disable-scroll {
 pre.highlight code {
   display: block;
   overflow: auto;
-  border-radius: 4px; }
+  border-radius: 4px;
+  margin-top: 4px;
+  margin-bottom: 12px; }
 
 a.active {
   color: #e62027; }

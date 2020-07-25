@@ -30,9 +30,9 @@ Building a hyperlink text control for your macOS app in Xamarin is not that comp
     * DesignTimeVisible(true) attribute makes sure that the class is visible in Xcode at design time.
 4. {: .lh-copy }Create three private members viz. 
     ```csharp
-    String href;
-    NSTrackingArea hoverarea;
-    NSCursor cursor;
+    String href;
+    NSTrackingArea hoverarea;
+    NSCursor cursor;
     ```
 
     * href will be used for the link element of the hyperlink. The rest will be used for changing cursor to pointing hand on hover.
@@ -74,15 +74,15 @@ Building a hyperlink text control for your macOS app in Xamarin is not that comp
 7. {: .lh-copy }In order to change the cursor to pointing hand on hover and vice versa, we are going to override two methods which is pretty straight-forward.
     ```csharp
     //Method override to change cursor to pointing hand on Mouse Enter (Hover)
-    public override void MouseEntered(NSEvent theEvent)
-    { 
-        base.MouseEntered(theEvent); 
-        cursor = NSCursor.PointingHandCursor; 
+    public override void MouseEntered(NSEvent theEvent)
+    {
+        base.MouseEntered(theEvent);
+        cursor = NSCursor.PointingHandCursor;
         cursor.Push();
-    } 
+    }
     //Method override to change cursor back to pointing arrow on Mouse Exit
-    public override void MouseExited(NSEvent theEvent)
-    { 
+    public override void MouseExited(NSEvent theEvent)
+    {
         base.MouseEntered(theEvent);
         cursor.Pop();
     }
@@ -91,9 +91,9 @@ Building a hyperlink text control for your macOS app in Xamarin is not that comp
 8. {: .lh-copy }Now we only require one last method which will be used to open the URL on clicking the hyperlink control. This method is also an override.
     ```csharp
     //Method override to open url on click of HyperlinkTextField
-    public override void MouseDown(NSEvent theEvent)
-    { 
-        NSWorkspace.SharedWorkspace.OpenUrl(new NSUrl(href));
+    public override void MouseDown(NSEvent theEvent)
+    {
+        NSWorkspace.SharedWorkspace.OpenUrl(new NSUrl(href));
     }
     ```
     * [NSWorkspace](https://developer.apple.com/documentation/appkit/nsworkspace){:target="_blank" aria-label="Read more about NSWorkspace on developer.apple.com"}{:.active .font-medium} is a workspace that can launch other apps and perform a variety of file-handling services. There is one shared NSWorkspace object per app which has a method named OperUrl. We pass a new NSUrl object intialized by the member href.  
