@@ -210,7 +210,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 <br>
 Voila. Run the app, click on the menu bar app icon and you should see the popover with the same “Hello, World!”.
 
-![App running in menu bar]({{ site.url }}/assets/images/posts/macos-menubar/mb-8.jpg){: .slb }
+![App running in menu bar]({{ site.url }}/assets/images/posts/macos-menubar/mb-3.jpg){: .slb }
 
 <br>
 ###### **ADDITIONAL FUNCTIONALITIES**
@@ -267,11 +267,11 @@ Now you just have to start the monitoring when the popover is shown and stop it 
 * {: .lh-copy }If you are coming from UIKit, you know that there is a method named `viewDidAppear` which “notifies the view controller that its view was added to a view hierarchy.” We will be using this method.
 * {: .lh-copy }To use this method, we need a View Controller. There is this `Main.storyboard` file in this project which we never touched. We will need this now. Select this file and add a View Controller from the Object Library.
 
-![Adding a view controller]({{ site.url }}/assets/images/posts/macos-menubar/mb-10.gif){: .slb }
+![Adding a view controller]({{ site.url }}/assets/images/posts/macos-menubar/mb-4.gif){: .slb }
 
 * {: .lh-copy }We will then have a custom View Controller class to override `viewDidAppear`. Add a new class `MainViewController.swift` in your project. Make sure it inherits from `NSViewController` so that we can use this as a custom class for our View Controller that we added in the previous step.
 
-![Setting custom class for view controller]({{ site.url }}/assets/images/posts/macos-menubar/mb-11.gif){: .slb }
+![Setting custom class for view controller]({{ site.url }}/assets/images/posts/macos-menubar/mb-5.gif){: .slb }
 
 * {: .lh-copy }After setting the custom class, we just need to set this newly created class as the popover’s `contentViewController` in AppDelegate - 
 
