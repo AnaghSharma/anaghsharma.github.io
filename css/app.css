@@ -1579,8 +1579,8 @@ code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: normal;
   color: #000000;
-  background-color: #e6e6e6;
-  border: 1px solid #cacaca;
+  background-color: #49483E;
+  border: 0px solid #cacaca;
   padding: 0.125rem 0.3125rem; }
 
 kbd {
@@ -6138,6 +6138,10 @@ html.disable-scroll {
 
 .br8 {
   border-radius: 8px; }
+
+code {
+  color: #f8f8f2;
+  border-radius: 4px; }
 
 pre.highlight code {
   display: block;
