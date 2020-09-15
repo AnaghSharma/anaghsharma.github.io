@@ -227,6 +227,23 @@
   }
 }
 
+.timeless-thumbnail {
+  background: url("/assets/images/projects/timeless/thumbnail.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.timeless-hero {
+  background: url("/assets/images/projects/timeless/hero.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 .identity-thumbnail {
   background: url("/assets/images/projects/identity/thumbnail.jpg") no-repeat center center; 
   -webkit-background-size: cover;
